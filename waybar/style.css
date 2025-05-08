@@ -1,44 +1,127 @@
+/* ──────────────── NEON PURPLE MODERN WAYBAR ──────────────── */
 * {
-  font-family: JetBrainsMono Nerd Font, monospace;
-  font-size: 13px;
-  min-height: 0;
-  color: #e0d7ff;
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono Nerd Font", monospace;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+/* Add or modify these sections */
+
+/* Add tooltip label styling */
+tooltip label {
+    color: #e2ccff;
+}
+
+/* Fixed active window styling */
+#hyprland-window {
+    background: rgba(71, 0, 140, 0.13);
+    margin: 0 8px;
+    padding: 0 14px;
+    border-radius: 8px;
+    font-style: italic;
+    color: #c9aaff;
 }
 
 window#waybar {
-  background-color: rgba(30, 0, 60, 0.75);
-  border-bottom: 2px solid #a84dff;
-  padding: 4px 10px;
+    background: rgba(18, 0, 33, 0.9);
+    color: #e2ccff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(187, 0, 255, 0.2);
+    border: 1px solid #7f00ff;
+    margin: 8px 10px 0 10px;
+    padding: 4px;
+}
+
+tooltip {
+    background: rgba(18, 0, 33, 0.95);
+    border: 1px solid #bb00ff;
+    border-radius: 8px;
+    color: #e2ccff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 10px;
 }
 
 #workspaces button {
-  padding: 0 8px;
-  margin: 0 3px;
-  background: transparent;
-  color: #ccccff;
-  border-radius: 8px;
-  transition: background 0.3s ease;
+    padding: 4px 10px;
+    margin: 0 4px;
+    background: rgba(71, 0, 140, 0.3);
+    color: #b48eed;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
 }
 
+/* Fix for active workspace icon visibility */
 #workspaces button.active {
-  background-color: #a84dff;
-  color: #ffffff;
+    background: rgba(187, 0, 255, 0.5); /* More transparent background */
+    color: #ffffff;                     /* Brighter icon color */
+    border: 1px solid #ff00ff;          /* Bright border */
+    box-shadow: 0 0 10px rgba(187, 0, 255, 0.5);
+    text-shadow: 0 0 3px #ffffff;       /* Add glow to icon */
+    font-weight: bold;                  /* Make icon bolder */
 }
 
-#custom-clock {
-  padding: 0 10px;
-  min-width: 300px;
-  font-size: 14px;
+#workspaces button:hover {
+    background: rgba(187, 0, 255, 0.3);
+    color: #fff;
+    border: 1px solid #bb00ff;
 }
 
-#clock,
-#pulseaudio,
-#network,
+#clock {
+    background: linear-gradient(90deg, #bb00ff 0%, #7f00ff 100%);
+    color: #fff;
+    font-weight: bold;
+    padding: 4px 16px;
+    border-radius: 10px;
+    margin: 0 12px;
+    box-shadow: 0 0 8px rgba(187, 0, 255, 0.3);
+}
+
 #cpu,
 #memory,
-#battery {
-  background-color: rgba(80, 0, 140, 0.4);
-  padding: 4px 10px;
-  margin: 0 5px;
-  border-radius: 10px;
+#network,
+#battery,
+#pulseaudio,
+#tray {
+    background: rgba(71, 0, 140, 0.2);
+    color: #e2ccff;
+    border-radius: 8px;
+    margin: 0 4px;
+    padding: 4px 12px;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+#battery.charging {
+    background: rgba(187, 0, 255, 0.3);
+    color: #99ffdd;
+}
+
+#battery.critical {
+    background: #ff2edf;
+    color: #fff;
+    animation: blink 0.7s linear infinite alternate;
+}
+
+@keyframes blink {
+    to {
+        background: #ff7ef5;
+    }
+}
+
+#pulseaudio.muted {
+    background: rgba(255, 46, 223, 0.2);
+    color: #ff2edf;
+}
+
+#tray > .passive {
+    opacity: 0.7;
+}
+
+#tray > .needs-attention {
+    background: #ff2edf;
+    border-radius: 50%;
 }
