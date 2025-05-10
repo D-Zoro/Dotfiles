@@ -18,7 +18,10 @@
 
     "clock": {
         "format": "{:%I:%M %p}",
-        "tooltip-format": "{:%A, %B %d, %Y}"
+        "format-alt": "{:%B %d, %Y}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "on-click": "mode",
+        "interval": 1
     },
 
     "cpu": {
@@ -75,7 +78,8 @@
             "urgent": "󰀨",
             "default": "{name}"
         },
-        "active-only": true,
+        
+        "active-only": false,
         "show-special": false,
         "sort-by-number": true,
         "all-outputs": true
