@@ -107,7 +107,9 @@ tooltip {
 #network,
 #battery,
 #pulseaudio,
-#tray {
+#tray,
+#bluetooth,
+#backlight {
     background: rgba(71, 0, 140, 0.2);
     color: #e2ccff;
     border-radius: 8px;

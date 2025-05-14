@@ -8,7 +8,14 @@
     "margin-right": 0,
     "modules-left": ["hyprland/workspaces", "window"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "memory", "network", "battery", "pulseaudio", "tray"],
+    "modules-right": [
+        "network",
+        "bluetooth",
+        "backlight",
+        "pulseaudio",
+        "battery",
+        
+    ],
 
     "window": {
         "max-length": 30,
@@ -38,7 +45,22 @@
         "format-wifi": "󰤨 {essid}",
         "format-ethernet": "󰤥",
         "format-disconnected": "󰤭",
-        "tooltip-format": "{ifname}: {ipaddr}"
+        "tooltip-format": "{ifname}: {ipaddr}",
+        "on-click": "nm-connection-editor"
+    },
+
+    "bluetooth": {
+        "format": "󰂯 {status}",
+        "format-disabled": "󰂲",
+        "format-connected": "󰂱 {num_connections}",
+        "tooltip-format": "{device_alias} ({device_address})",
+        "on-click": "blueman-manager"
+    },
+
+    "backlight": {
+        "format": "󰃠 {percent}%",
+        "on-scroll-up": "brightnessctl set +5%",
+        "on-scroll-down": "brightnessctl set 5%-"
     },
 
     "battery": {
