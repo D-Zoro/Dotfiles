@@ -1,0 +1,57 @@
+;; filepath: ~/.config/eww/eww.yuck
+
+;; Variables for tracking state
+(defpoll wifi_status :interval "1s" "~/.config/eww/scripts/get-wifi.sh")
+(defpoll bt_status :interval "1s" "~/.config/eww/scripts/get-bluetooth.sh")
+(defpoll volume :interval "1s" "wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print int($2*100)}'")
+(defpoll brightness :interval "1s" "brightnessctl -m -d intel_backlight | awk -F, '{print substr($4, 0, length($4)-1)}' | tr -d '%'")
+
+(defwidget control_center []
+  (box :class "control-center"
+       :orientation "v"
+       :space-evenly false
+    (box :class "header"
+      (label :text "Neo Control Center" :class "title")
+    )
+    (box :class "controls" :orientation "v" :spacing 10
+      (box :class "row" :spacing 10
+        (button :class "wifi ${wifi_status == 'on' ? 'active' : ''}" 
+                :onclick "~/.config/eww/scripts/toggle-wifi.sh" 
+                (label :text "${wifi_status == 'on' ? '󰤨' : '󰤭'} WiFi"))
+        (button :class "bluetooth ${bt_status == 'on' ? 'active' : ''}"
+                :onclick "~/.config/eww/scripts/toggle-bluetooth.sh" 
+                (label :text "${bt_status == 'on' ? '󰂱' : '󰂲'} BT"))
+      )
+      (box :class "row" :spacing 10
+        (button :class "mute" 
+                :onclick "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle" 
+                (label :text "󰕾 Sound"))
+        (button :class "airplane"
+                :onclick "~/.config/eww/scripts/toggle-airplane.sh" 
+                (label :text "󰀝 Airplane"))
+      )
+      (box :class "row" :spacing 5
+        (label :text "󰃠" :class "slider-label")
+        (scale :min 5 :max 100 :value brightness :onchange "brightnessctl set {}%")
+      )
+      (box :class "row" :spacing 5
+        (label :text "󰕾" :class "slider-label")
+        (scale :min 0 :max 100 :value volume :onchange "wpctl set-volume @DEFAULT_AUDIO_SINK@ {}%")
+      )
+    )
+    (button :class "close-button" 
+            :onclick "eww close control_center" 
+            (label :text "󰅖"))
+  )
+)
+
+(defwindow control_center
+  :monitor 0
+  :geometry (geometry :x "1%" 
+                      :y "1%" 
+                      :width "300px"
+                      :height "350px"  ;; Fixed height instead of "auto"
+                      :anchor "top right")
+  :stacking "fg"
+  :exclusive false
+  (control_center))

@@ -1,0 +1,99 @@
+/* Neo Purple Wofi Theme - Cyberpunk Inspired */
+
+window {
+    margin: 0px;
+    background-color: rgba(12, 0, 18, 0.85);
+    border-radius: 16px;
+    border: 2px solid #bb00ff;
+    box-shadow: 0 0 20px rgba(187, 0, 255, 0.6);
+    animation: pulse 8s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 20px rgba(187, 0, 255, 0.6); }
+    50% { box-shadow: 0 0 30px rgba(255, 54, 227, 0.8); }
+    100% { box-shadow: 0 0 20px rgba(187, 0, 255, 0.6); }
+}
+
+#input {
+    margin: 12px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 2px solid #bb00ff;
+    color: #ffffff;
+    background-color: rgba(40, 0, 60, 0.6);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    box-shadow: inset 0 0 6px rgba(187, 0, 255, 0.4);
+    transition: all 0.2s ease;
+}
+
+#input:focus {
+    border: 2px solid #ff36e3;
+    background-color: rgba(60, 0, 80, 0.7);
+    box-shadow: inset 0 0 10px rgba(255, 54, 227, 0.5);
+}
+
+#inner-box {
+    margin: 6px;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: rgba(20, 0, 30, 0.5);
+}
+
+#outer-box {
+    margin: 10px;
+    padding: 0px;
+    border-radius: 14px;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+#entry {
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 12px;
+    background-color: rgba(40, 0, 60, 0.3);
+    transition: all 0.15s ease;
+}
+
+#entry:selected {
+    background: linear-gradient(100deg, #bb00ff 0%, #9900cc 100%);
+    box-shadow: 0 0 10px rgba(187, 0, 255, 0.5);
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from { box-shadow: 0 0 8px rgba(187, 0, 255, 0.5); }
+    to { box-shadow: 0 0 14px rgba(255, 54, 227, 0.7); }
+}
+
+#text {
+    margin: 4px;
+    padding: 4px;
+    color: #04c3f3;
+    font-family: monospace;
+    text-shadow: #9900cc 0px 0px 5px;
+    font-size: 14px;
+}
+
+#text:selected {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#img {
+    margin: 4px;
+    padding: 4px;
+    background-color: transparent;
+}
+
+#unselected {
+    opacity: 0.8;
+}

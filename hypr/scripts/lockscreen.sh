@@ -3,13 +3,13 @@
 
 TMPBG="/tmp/screen.png"
 ARCH_LOGO="$HOME/.config/hypr/scripts/arch-neon.png" # Use a bright, high-contrast neon purple logo here
-
+             
 # Take a screenshot (no convert/blur step for speed)
 grim "$TMPBG"
 
 # Lock screen with swaylock-effects, let swaylock blur and show logo
 swaylock \
-    --image "$TMPBG" \
+    --image " $TMPBG" \
     --effect-blur 12x6 \
     --effect-vignette 0.5:0.5 \
     --indicator \

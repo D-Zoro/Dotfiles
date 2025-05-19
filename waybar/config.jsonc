@@ -7,14 +7,15 @@
     "margin-left": 0,
     "margin-right": 0,
     "modules-left": ["hyprland/workspaces", "window"],
-    "modules-center": ["clock"],
+    "modules-center": ["cpu", "clock", "memory"],
     "modules-right": [
         "network",
         "bluetooth",
         "backlight",
-        "pulseaudio",
+        "wireplumber",
         "battery",
-        
+        "custom/controlcenter",
+        "tray"
     ],
 
     "window": {
@@ -33,12 +34,16 @@
 
     "cpu": {
         "format": "󰍛 {usage}%",
-        "tooltip": true
+        "tooltip": true,
+        "interval": 1,
+        "on-click": "kitty -e htop"
     },
 
     "memory": {
         "format": "󰘚 {percentage}%",
-        "tooltip": true
+        "tooltip": true,
+        "interval": 1,
+        "on-click": "kitty -e htop"
     },
 
     "network": {
@@ -68,13 +73,16 @@
         "format-icons": ["󰂎", "󰁻", "󰁾", "󰂁", "󰁹"]
     },
 
-    "pulseaudio": {
+    "wireplumber": {
         "format": "{icon} {volume}%",
         "format-muted": "󰝟",
         "format-icons": {
             "default": ["󰕿", "󰖀", "󰕾"]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol",
+        "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
     },
 
     "tray": {
@@ -105,5 +113,11 @@
         "show-special": false,
         "sort-by-number": true,
         "all-outputs": true
+    },
+
+    "custom/controlcenter": {
+        "format": "󰍹",
+        "tooltip": false,
+        "on-click": "~/.config/eww/scripts/toggle-control-center.sh"
     }
 }

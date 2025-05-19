@@ -1,0 +1,90 @@
+* {
+  all: unset;
+  font-family: "JetBrains Mono Nerd Font", monospace;
+}
+
+.control-center {
+  background-color: rgba(10, 0, 23, 0.85);
+  border-radius: 16px;
+  border: 2px solid #bb00ff;
+  padding: 15px;
+  box-shadow: 0 0 20px rgba(187, 0, 255, 0.6);
+  color: #e2ccff;
+  margin: 5px;
+}
+
+.header {
+  margin-bottom: 20px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(187, 0, 255, 0.3);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(187, 0, 255, 0.6);
+}
+
+.controls {
+  padding: 10px 0;
+}
+
+.row {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+button {
+  background-color: rgba(71, 0, 140, 0.4);
+  border-radius: 12px;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin: 0 5px;
+  min-width: 90px;
+  box-shadow: 0 0 8px rgba(187, 0, 255, 0.2);
+}
+
+button:hover {
+  background-color: rgba(187, 0, 255, 0.6);
+  box-shadow: 0 0 12px rgba(187, 0, 255, 0.5);
+}
+
+button.active {
+  background: linear-gradient(135deg, #bb00ff 0%, #ff36e3 100%);
+  box-shadow: 0 0 12px rgba(187, 0, 255, 0.6);
+}
+
+.wifi.active, .bluetooth.active {
+  background: linear-gradient(135deg, #bb00ff 0%, #ff36e3 100%);
+}
+
+scale trough {
+  background-color: rgba(71, 0, 140, 0.4);
+  border-radius: 10px;
+  min-height: 10px;
+  min-width: 180px;
+  margin: 0 10px;
+}
+
+scale trough highlight {
+  background: linear-gradient(90deg, #bb00ff 0%, #ff36e3 100%);
+  border-radius: 10px;
+}
+
+.slider-label {
+  min-width: 70px;
+}
+
+.close-button {
+  background-color: rgba(255, 41, 117, 0.7);
+  border-radius: 50%;
+  padding: 8px;
+  /* Simplified margin */
+  margin: 10px;
+}
+
+.close-button:hover {
+  background-color: #ff2975;
+  box-shadow: 0 0 10px rgba(255, 41, 117, 0.7);
+}
