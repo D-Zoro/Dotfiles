@@ -1,0 +1,70 @@
+[?1049h[22;0;0t[?1h=[H[2J[?2004h[?2026$p[?2027$p[?2031$p[?2048$p[0m[4:3mP$qm\[?u[c[?25h[?25l(B[m[H                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                [24;1H(B[msourcing "nvim_exec2()"[K[H[23M
+finished sourcing nvim_exec2()                                                  
+sourcing "/usr/share/nvim/runtime/ftplugin.vim"                                 
+finished sourcing /usr/share/nvim/runtime/ftplugin.vim                          
+sourcing "/usr/share/nvim/runtime/indent.vim"                                   
+finished sourcing /usr/share/nvim/runtime/indent.vim                            
+sourcing "/etc/xdg/nvim/sysinit.vim"                                            
+line 1: sourcing "/usr/share/nvim/archlinux.lua"                                
+finished sourcing /usr/share/nvim/archlinux.lua                                 
+continuing in /etc/xdg/nvim/sysinit.vim                                         
+finished sourcing /etc/xdg/nvim/sysinit.vim                                     
+sourcing "/home/neonpulse/.config/nvim/init.lua"                                
+[91mError detected while processing /home/neonpulse/.config/nvim/init.lua:(B[m          
+[91mE5112: Error while creating lua chunk: /home/neonpulse/.config/nvim/init.lua:139
+3: 'end' expected (to close 'if' at line 373) near '<eof>'(B[m                      
+finished sourcing /home/neonpulse/.config/nvim/init.lua                         
+sourcing "/usr/share/nvim/runtime/filetype.lua"                                 
+line 0: sourcing "nvim_exec2() called at /usr/share/nvim/runtime/filetype.lua:0"
+line 2: sourcing "/usr/share/vim/vimfiles/ftdetect/meson.vim"                   
+finished sourcing /usr/share/vim/vimfiles/ftdetect/meson.vim                    
+continuing in nvim_exec2() called at /usr/share/nvim/runtime/filetype.lua:0     
+finished sourcing nvim_exec2() called at /usr/share/nvim/runtime/filetype.lua:0 
+continuing in /usr/share/nvim/runtime/filetype.lua                              
+-- More --                                                                      [1 q[Hsourcing "nvim_exec2()"[K
+finished sourcing nvim_exec2()[K
+sourcing "/usr/share/nvim/runtime/ftplugin.vim"[K
+finished sourcing /usr/share/nvim/runtime/ftplugin.vim[K
+sourcing "/usr/share/nvim/runtime/indent.vim"[K
+finished sourcing /usr/share/nvim/runtime/indent.vim[K
+sourcing "/etc/xdg/nvim/sysinit.vim"[K
+line 1: sourcing "/usr/share/nvim/archlinux.lua"[K
+finished sourcing /usr/share/nvim/archlinux.lua[K
+continuing in /etc/xdg/nvim/sysinit.vim[K
+finished sourcing /etc/xdg/nvim/sysinit.vim[K
+sourcing "/home/neonpulse/.config/nvim/init.lua"[K
+[91mError detected while processing /home/neonpulse/.config/nvim/init.lua:(B[m[K
+[91mE5112: Error while creating lua chunk: /home/neonpulse/.config/nvim/init.lua:139
+3: 'end' expected (to close 'if' at line 373) near '<eof>'(B[m[K
+finished sourcing /home/neonpulse/.config/nvim/init.lua[K
+sourcing "/usr/share/nvim/runtime/filetype.lua"[K
+line 0: sourcing "nvim_exec2() called at /usr/share/nvim/runtime/filetype.lua:0"
+line 2: sourcing "/usr/share/vim/vimfiles/ftdetect/meson.vim"[K
+finished sourcing /usr/share/vim/vimfiles/ftdetect/meson.vim[K
+continuing in nvim_exec2() called at /usr/share/nvim/runtime/filetype.lua:0[K
+finished sourcing nvim_exec2() called at /usr/share/nvim/runtime/filetype.lua:0[K
+continuing in /usr/share/nvim/runtime/filetype.lua[K
+-- More --[K[?25h[?25l[?1004h[?25h
