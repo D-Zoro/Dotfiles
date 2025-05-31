@@ -1,0 +1,11 @@
+[Configuration]
+LastShowHidden=FALSE
+LastSeparatorPosition=170
+LastSortColumn=THUNAR_COLUMN_NAME
+LastSortOrder=GTK_SORT_ASCENDING
+ShortcutsIconSize=THUNAR_ICON_SIZE_SMALLER
+ShortcutsIconEmblems=TRUE
+TreeIconSize=THUNAR_ICON_SIZE_SMALLER
+SmallIconSize=THUNAR_ICON_SIZE_SMALL
+ThumbnailMode=THUNAR_THUMBNAIL_MODE_ALWAYS
+ThumbnailSize=THUNAR_THUMBNAIL_SIZE_NORMAL
