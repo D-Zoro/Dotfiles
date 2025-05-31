@@ -2,63 +2,68 @@
     "layer": "top",
     "position": "top",
     "height": 28,
-    "spacing": 4,
-    "margin-top": 0,
-    "margin-left": 0,
-    "margin-right": 0,
-    "modules-left": ["hyprland/workspaces", "window"],
-    "modules-center": ["cpu", "clock", "memory"],
-    "modules-right": [
-        "network",
-        "bluetooth",
-        "backlight",
-        "wireplumber",
-        "battery",
-        "custom/controlcenter",
-        "tray"
-    ],
+    "spacing": 8,
+    "margin-top": 2,
+    "margin-left": 2,
+    "margin-right": 2,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["custom/spacer", "cpu", "clock", "memory", "custom/spacer"],
+    "modules-right": ["network", "bluetooth", "backlight", "wireplumber", "battery", "tray"],
 
-    "window": {
-        "max-length": 30,
-        "format": "{title}",
-        "tooltip": false
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "on-click": "activate",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "9": "",
+            "urgent": "●",
+            "default": "○"
+        },
+        "persistent-workspaces": {
+            "*": 5
+        }
     },
 
     "clock": {
-        "format": "{:%I:%M %p}",
-        "format-alt": "{:%B %d, %Y}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "on-click": "mode",
-        "interval": 1
+        "format": "{:%H:%M}",
+        "format-alt": "{:%Y-%m-%d}",
+        "tooltip-format": "<big>{:%A, %B %d}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
     "cpu": {
         "format": "󰍛 {usage}%",
-        "tooltip": true,
-        "interval": 1,
-        "on-click": "kitty -e htop"
+        "tooltip": false,
+        "interval": 1
     },
 
     "memory": {
         "format": "󰘚 {percentage}%",
-        "tooltip": true,
-        "interval": 1,
-        "on-click": "kitty -e htop"
+        "tooltip": false,
+        "interval": 1
     },
 
     "network": {
-        "format-wifi": "󰤨 {essid}",
+        "format-wifi": "󰤨",
         "format-ethernet": "󰤥",
         "format-disconnected": "󰤭",
-        "tooltip-format": "{ifname}: {ipaddr}",
+        "tooltip-format": "{ifname}: {ipaddr}\n{essid}",
         "on-click": "nm-connection-editor"
     },
 
     "bluetooth": {
-        "format": "󰂯 {status}",
+        "format": "󰂯",
         "format-disabled": "󰂲",
-        "format-connected": "󰂱 {num_connections}",
-        "tooltip-format": "{device_alias} ({device_address})",
+        "format-connected": "󰂱",
+        "tooltip-format": "{controller_alias}\n{num_connections} connected",
         "on-click": "blueman-manager"
     },
 
@@ -69,55 +74,46 @@
     },
 
     "battery": {
-        "format": "{icon} {capacity}%",
-        "format-icons": ["󰂎", "󰁻", "󰁾", "󰂁", "󰁹"]
+        "format": "{icon}",
+        "format-charging": "󰂄",
+        "format-icons": ["󰂎", "󰁻", "󰁾", "󰂁", "󰁹"],
+        "tooltip-format": "{capacity}%",
+        "states": {
+            "warning": 30,
+            "critical": 15
+        }
     },
 
     "wireplumber": {
         "format": "{icon} {volume}%",
-        "format-muted": "󰝟",
+        "format-muted": "󰝟 muted",
         "format-icons": {
             "default": ["󰕿", "󰖀", "󰕾"]
         },
+        "tooltip-format": "Volume: {volume}%",
         "on-click": "pavucontrol",
         "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
         "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
         "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
     },
 
+    "custom/dot-sep": {
+        "format": "󰧞",
+        "tooltip": false
+    },
+
+    "custom/spacer": {
+        "format": " ",
+        "tooltip": false
+    },
+
     "tray": {
-        "icon-size": 16,
+        "icon-size": 14,
         "spacing": 6
     },
 
-    "hyprland/workspaces": {
-        "format": "{icon}",
-        "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1",
-        "on-click": "activate",
-        "format-icons": {
-            "1": "󰣇",
-            "2": "󰣈",
-            "3": "󰣉",
-            "4": "󰣊",
-            "5": "󰣋",
-            "6": "󰣌",
-            "7": "󰣍",
-            "8": "󰣎",
-            "9": "󰣏",
-            "urgent": "󰀨",
-            "default": "{name}"
-        },
-        
-        "active-only": false,
-        "show-special": false,
-        "sort-by-number": true,
-        "all-outputs": true
-    },
-
-    "custom/controlcenter": {
-        "format": "󰍹",
-        "tooltip": false,
-        "on-click": "~/.config/eww/scripts/toggle-control-center.sh"
+    "custom/tray-dots": {
+        "format": "⋯",
+        "tooltip": false
     }
 }

@@ -1,138 +1,192 @@
-/* Waybar Neo Purple Theme */
+/* filepath: /home/neonpulse/.config/waybar/style.css */
 
+/* Neo-Purple Cyberpunk Theme - Enhanced Edition */
 * {
-    border: none;
-    border-radius: 0;
-    font-family: "JetBrains Mono", monospace;
-    font-weight: bold;
-    font-size: 14px;
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
     min-height: 0;
+    transition: all 0.3s ease;
 }
 
 window#waybar {
-    background: linear-gradient(90deg, 
-        rgba(8, 0, 14, 0.85) 0%, 
-        rgba(20, 0, 30, 0.85) 100%);
-    border-bottom: 2px solid #bb00ff;
-    color: #bb00ff;
-    box-shadow: 0 0 15px rgba(187, 0, 255, 0.4);
+    background: rgba(16, 14, 23, 0.9);
+    border-radius: 12px;
+    margin: 6px;
+    border: 1px solid rgba(139, 0, 255, 0.3);
+    box-shadow: 0 2px 12px rgba(147, 112, 219, 0.2);
+}
+
+/* Workspaces Module - Neon style */
+#workspaces {
+    background: rgba(26, 24, 38, 0.4);
+    margin: 4px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    border: 1px solid rgba(147, 112, 219, 0.2);
 }
 
 #workspaces button {
-    padding: 0 5px;
-    background: transparent;
-    color: #bb00ff;
-    border-bottom: 3px solid transparent;
+    color: #6e6c7e;
+    padding: 0;
+    margin: 2px 3px;
+    border-radius: 50%;
+    min-width: 18px;
+    min-height: 18px;
+    background: rgba(108, 112, 134, 0.1);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
 }
 
 #workspaces button:hover {
-    background: rgba(187, 0, 255, 0.2);
-    box-shadow: inherit;
-    text-shadow: 0 0 5px rgba(187, 0, 255, 0.7);
+    background: rgba(147, 112, 219, 0.3);
+    color: #b794f6;
+    border: 2px solid #9370DB;
+    box-shadow: 0 0 8px rgba(147, 112, 219, 0.4);
 }
 
-#workspaces button.focused {
-    background: rgba(187, 0, 255, 0.3);
-    border-bottom: 3px solid #bb00ff;
-    box-shadow: 0 0 8px rgba(187, 0, 255, 0.6);
+#workspaces button.active {
+    background: linear-gradient(45deg, #9370DB, #8B00FF);
+    color: #ffffff;
+    border: 2px solid #b794f6;
+    box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.2), 0 0 12px rgba(147, 112, 219, 0.6);
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
 }
 
-#mode {
-    background: #bb00ff;
-    border-bottom: 3px solid #ffffff;
-    color: white;
-}
-
-#clock,
-#battery,
-#cpu,
-#memory,
-#temperature,
-#backlight,
-#network,
-#pulseaudio,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#mpd {
-    padding: 0 10px;
-    margin: 0 2px;
-    color: #bb00ff;
-    text-shadow: 0 0 3px rgba(187, 0, 255, 0.5);
-}
-
+/* Clock Module - Center glowing bracket effect */
 #clock {
+    background: linear-gradient(135deg, #9370DB 0%, #8B00FF 50%, #b794f6 100%);
+    color: #ffffff;
+    border-radius: 16px;
+    margin: 4px 6px;
+    padding: 2px 18px;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    min-height: 24px;
+    box-shadow: 0 0 12px rgba(147, 112, 219, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.7);
+}
+
+/* Window title */
+#window {
+    background: rgba(26, 24, 38, 0.5);
+    color: #e0e0ff;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 0 12px;
+    border: 1px solid rgba(194, 117, 255, 0.3);
+}
+
+/* System stats modules */
+#cpu, #memory {
+    background: rgba(26, 24, 38, 0.6);
+    color: #b794f6;
+    border-radius: 10px;
+    margin: 4px 4px;
+    padding: 2px 8px;
+    border: 1px solid rgba(147, 112, 219, 0.2);
+    font-weight: 600;
+}
+
+#cpu:hover, #memory:hover {
+    background: rgba(147, 112, 219, 0.2);
+    color: #ffffff;
+    border-color: #9370DB;
+    box-shadow: 0 0 8px rgba(147, 112, 219, 0.4);
+    text-shadow: 0 0 4px rgba(147, 112, 219, 0.8);
+}
+
+#network, #bluetooth, #backlight, #wireplumber, #battery {
+    background: rgba(26, 24, 38, 0.6);
+    color: #b794f6;
+    border-radius: 10px;
+    margin: 4px 2px;
+    padding: 2px 8px;
+    border: 1px solid rgba(147, 112, 219, 0.2);
+}
+
+#network:hover, #bluetooth:hover, #backlight:hover, #wireplumber:hover, #battery:hover {
+    background: rgba(147, 112, 219, 0.2);
+    color: #ffffff;
+    border-color: #9370DB;
+    box-shadow: 0 0 8px rgba(147, 112, 219, 0.4);
+}
+
+/* Tray styling */
+#tray {
+    background: rgba(26, 24, 38, 0.6);
+    border-radius: 10px;
+    margin: 4px;
+    padding: 2px 8px;
+    border: 1px solid rgba(147, 112, 219, 0.2);
+    color: #b794f6;
+    font-size: 16px;
     font-weight: bold;
 }
 
-#battery {
+#custom-spacer {
+    padding: 0 8px;
 }
 
-#battery.charging {
-    color: #00ffe1;
-    text-shadow: 0 0 3px rgba(0, 255, 225, 0.5);
+/* Battery states */
+#battery.warning {
+    color: #ffb86c;
+}
+
+#battery.critical {
+    color: #ff5555;
+    animation: blink 1s infinite;
 }
 
 @keyframes blink {
     to {
-        background-color: rgba(187, 0, 255, 0.3);
-        color: #ffffff;
+        color: #ff5555;
+        background-color: rgba(255, 85, 85, 0.3);
     }
 }
 
-#battery.critical:not(.charging) {
-    background-color: rgba(255, 0, 93, 0.6);
-    color: #ffffff;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+/* Tooltip styling */
+tooltip {
+    background: rgba(30, 30, 46, 0.9);
+    border: 2px solid #9370DB;
+    border-radius: 8px;
 }
 
-#cpu {
+tooltip label {
+    color: #e0e0ff;
 }
 
-#memory {
+/* Special highlighting for the active module */
+.module-hovered {
+    background-color: rgba(194, 117, 255, 0.2);
+    border-color: #c275ff;
+    box-shadow: 0 0 10px rgba(194, 117, 255, 0.4);
 }
 
-#backlight {
+/* Global variables for theme consistency */
+@define-color waybar-bg rgba(18, 18, 27, 0.85);
+@define-color waybar-border #8f43ee;
+@define-color waybar-text #e0e0ff;
+@define-color waybar-accent #c275ff;
+@define-color waybar-shadow rgba(194, 117, 255, 0.3);
+
+/* Custom separator and system start button */
+#custom-separator {
+    font-size: 14px;
+    color: #8f43ee;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
 }
 
-#network {
+#custom-system-start {
+    color: #c275ff;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: all 0.3s cubic-bezier(0.5, 0, 0.2, 1);
 }
 
-#network.disconnected {
-    color: rgba(255, 0, 93, 0.6);
-}
-
-#pulseaudio {
-}
-
-#pulseaudio.muted {
-    color: rgba(255, 0, 93, 0.6);
-}
-
-#custom-media {
-    min-width: 100px;
-}
-
-#temperature {
-}
-
-#temperature.critical {
-    color: rgba(255, 0, 93, 0.6);
-}
-
-#tray {
-    padding: 0 8px;
-}
-
-#idle_inhibitor {
-}
-
-#idle_inhibitor.activated {
-    color: #00ffe1;
-    text-shadow: 0 0 3px rgba(0, 255, 225, 0.5);
+#custom-system-start:hover {
+    color: #ff79c6;
+    text-shadow: 0 0 8px rgba(255, 121, 198, 0.8);
 }
