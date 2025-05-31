@@ -1,6 +1,4 @@
-/* filepath: /home/neonpulse/.config/waybar/style.css */
-
-/* Neo-Purple Cyberpunk Theme - Enhanced Edition */
+/* ──────────────── DARK NEO-PURPLE WAYBAR ──────────────── */
 * {
     font-family: "JetBrainsMono Nerd Font", monospace;
     font-size: 13px;
@@ -9,16 +7,14 @@
 }
 
 window#waybar {
-    background: rgba(16, 14, 23, 0.9);
+    background: rgba(33, 22, 53, 0.9);
     border-radius: 12px;
     margin: 6px;
     border: 1px solid rgba(139, 0, 255, 0.3);
     box-shadow: 0 2px 12px rgba(147, 112, 219, 0.2);
 }
-
-/* Workspaces Module - Neon style */
 #workspaces {
-    background: rgba(26, 24, 38, 0.4);
+    background: rgba(49, 24, 73, 0.7);
     margin: 4px;
     padding: 2px 6px;
     border-radius: 10px;
@@ -26,22 +22,15 @@ window#waybar {
 }
 
 #workspaces button {
-    color: #6e6c7e;
+    color: #000000;
     padding: 0;
-    margin: 2px 3px;
+    margin: 5px;
     border-radius: 50%;
     min-width: 18px;
     min-height: 18px;
-    background: rgba(108, 112, 134, 0.1);
-    border: 2px solid transparent;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #b794f6;
     transition: all 0.3s ease;
-}
-
-#workspaces button:hover {
-    background: rgba(147, 112, 219, 0.3);
-    color: #b794f6;
-    border: 2px solid #9370DB;
-    box-shadow: 0 0 8px rgba(147, 112, 219, 0.4);
 }
 
 #workspaces button.active {
@@ -52,141 +41,141 @@ window#waybar {
     text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
 }
 
-/* Clock Module - Center glowing bracket effect */
+
+
 #clock {
-    background: linear-gradient(135deg, #9370DB 0%, #8B00FF 50%, #b794f6 100%);
     color: #ffffff;
-    border-radius: 16px;
-    margin: 4px 6px;
-    padding: 2px 18px;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 14px;
-    letter-spacing: 0.8px;
-    min-height: 24px;
-    box-shadow: 0 0 12px rgba(147, 112, 219, 0.6), inset 0 1px 2px rgba(255, 255, 255, 0.3);
-    text-shadow: 0 0 4px rgba(255, 255, 255, 0.7);
+    padding: 6px 16px;
+    margin: 6px 0;
+    background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 30%, #c084fc 70%, #d946ef 100%);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
 }
 
-/* Window title */
-#window {
-    background: rgba(26, 24, 38, 0.5);
-    color: #e0e0ff;
-    border-radius: 10px;
-    margin: 4px;
-    padding: 0 12px;
-    border: 1px solid rgba(194, 117, 255, 0.3);
-}
-
-/* System stats modules */
-#cpu, #memory {
-    background: rgba(26, 24, 38, 0.6);
-    color: #b794f6;
-    border-radius: 10px;
-    margin: 4px 4px;
-    padding: 2px 8px;
-    border: 1px solid rgba(147, 112, 219, 0.2);
-    font-weight: 600;
-}
-
-#cpu:hover, #memory:hover {
-    background: rgba(147, 112, 219, 0.2);
-    color: #ffffff;
-    border-color: #9370DB;
-    box-shadow: 0 0 8px rgba(147, 112, 219, 0.4);
-    text-shadow: 0 0 4px rgba(147, 112, 219, 0.8);
-}
-
-#network, #bluetooth, #backlight, #wireplumber, #battery {
-    background: rgba(26, 24, 38, 0.6);
-    color: #b794f6;
-    border-radius: 10px;
+#cpu,
+#memory,
+#network,
+#bluetooth,
+#wireplumber,
+#backlight,
+#battery {
+    color: #c4b5fd;
     margin: 4px 2px;
-    padding: 2px 8px;
-    border: 1px solid rgba(147, 112, 219, 0.2);
+    padding: 4px 8px;
+    background: rgba(45, 13, 76, 0.5);
+    border-radius: 8px;
+    border: 1px solid rgba(88, 28, 135, 0.4);
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
-#network:hover, #bluetooth:hover, #backlight:hover, #wireplumber:hover, #battery:hover {
-    background: rgba(147, 112, 219, 0.2);
-    color: #ffffff;
-    border-color: #9370DB;
-    box-shadow: 0 0 8px rgba(147, 112, 219, 0.4);
+#cpu:hover,
+#memory:hover,
+#network:hover,
+#bluetooth:hover,
+#wireplumber:hover,
+#backlight:hover,
+#battery:hover {
+    background: rgba(88, 28, 135, 0.6);
+    border: 1px solid rgba(139, 92, 246, 0.6);
+    box-shadow: 0 0 10px rgba(124, 58, 237, 0.3);
+    color: #e6d9ff;
 }
 
-/* Tray styling */
-#tray {
-    background: rgba(26, 24, 38, 0.6);
-    border-radius: 10px;
-    margin: 4px;
-    padding: 2px 8px;
-    border: 1px solid rgba(147, 112, 219, 0.2);
-    color: #b794f6;
-    font-size: 16px;
-    font-weight: bold;
+#cpu.warning,
+#memory.warning {
+    color: #fbbf24;
+    background: rgba(245, 158, 11, 0.2);
+    border: 1px solid rgba(251, 191, 36, 0.4);
 }
 
-#custom-spacer {
-    padding: 0 8px;
+#cpu.critical,
+#memory.critical {
+    color: #f87171;
+    background: rgba(239, 68, 68, 0.2);
+    border: 1px solid rgba(248, 113, 113, 0.4);
 }
 
-/* Battery states */
+#battery.charging {
+    color: #34d399;
+    background: rgba(16, 185, 129, 0.2);
+    border: 1px solid rgba(52, 211, 153, 0.4);
+}
+
 #battery.warning {
-    color: #ffb86c;
+    color: #fbbf24;
+    background: rgba(245, 158, 11, 0.2);
+    border: 1px solid rgba(251, 191, 36, 0.4);
 }
 
 #battery.critical {
-    color: #ff5555;
-    animation: blink 1s infinite;
+    color: #f87171;
+    background: rgba(239, 68, 68, 0.2);
+    border: 1px solid rgba(248, 113, 113, 0.4);
 }
 
-@keyframes blink {
-    to {
-        color: #ff5555;
-        background-color: rgba(255, 85, 85, 0.3);
-    }
+#network.disconnected {
+    color: #f87171;
+    background: rgba(239, 68, 68, 0.2);
+    border: 1px solid rgba(248, 113, 113, 0.4);
 }
 
-/* Tooltip styling */
-tooltip {
-    background: rgba(30, 30, 46, 0.9);
-    border: 2px solid #9370DB;
+#bluetooth.disabled {
+    color: #6b7280;
+    background: rgba(107, 114, 128, 0.2);
+    border: 1px solid rgba(156, 163, 175, 0.3);
+}
+
+#bluetooth.connected {
+    color: #60a5fa;
+    background: rgba(59, 130, 246, 0.2);
+    border: 1px solid rgba(96, 165, 250, 0.4);
+}
+
+#wireplumber.muted {
+    color: #6b7280;
+    background: rgba(107, 114, 128, 0.2);
+    border: 1px solid rgba(156, 163, 175, 0.3);
+}
+
+#tray {
+    margin: 4px 6px;
+    padding: 4px 8px;
+    background: rgba(45, 13, 76, 0.5);
     border-radius: 8px;
+    border: 1px solid rgba(88, 28, 135, 0.4);
 }
 
-tooltip label {
-    color: #e0e0ff;
-}
-
-/* Special highlighting for the active module */
-.module-hovered {
-    background-color: rgba(194, 117, 255, 0.2);
-    border-color: #c275ff;
-    box-shadow: 0 0 10px rgba(194, 117, 255, 0.4);
-}
-
-/* Global variables for theme consistency */
-@define-color waybar-bg rgba(18, 18, 27, 0.85);
-@define-color waybar-border #8f43ee;
-@define-color waybar-text #e0e0ff;
-@define-color waybar-accent #c275ff;
-@define-color waybar-shadow rgba(194, 117, 255, 0.3);
-
-/* Custom separator and system start button */
-#custom-separator {
-    font-size: 14px;
-    color: #8f43ee;
-    margin: 0;
-    padding: 0;
+#tray > .passive {
     opacity: 0.7;
 }
 
-#custom-system-start {
-    color: #c275ff;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition: all 0.3s cubic-bezier(0.5, 0, 0.2, 1);
+#tray > .active {
+    opacity: 1;
 }
 
-#custom-system-start:hover {
-    color: #ff79c6;
-    text-shadow: 0 0 8px rgba(255, 121, 198, 0.8);
+#tray > .needs-attention {
+    color: #f87171;
+    background: rgba(248, 113, 113, 0.2);
+    border-radius: 6px;
 }
+
+tooltip {
+    background: linear-gradient(135deg, rgba(25, 0, 35, 0.98) 0%, rgba(45, 13, 76, 0.98) 100%);
+    border: 1px solid rgba(139, 92, 246, 0.5);
+    border-radius: 8px;
+    color: #c4b5fd;
+    box-shadow: 0 4px 20px rgba(88, 28, 135, 0.5);
+}
+
+tooltip label {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 6px 10px;
+}
+
+

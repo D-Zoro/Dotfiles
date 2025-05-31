@@ -1,62 +1,82 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 28,
-    "spacing": 8,
+    "height": 26,
+    "spacing": 4,
     "margin-top": 2,
     "margin-left": 2,
     "margin-right": 2,
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["custom/spacer", "cpu", "clock", "memory", "custom/spacer"],
-    "modules-right": ["network", "bluetooth", "backlight", "wireplumber", "battery", "tray"],
+    "modules-center": ["clock"],
+    "modules-right": [
+        "cpu",
+        "memory",
+        "network",
+        "bluetooth",
+        "wireplumber",
+        "backlight",
+        "battery",
+        "tray"
+    ],
 
     "hyprland/workspaces": {
-        "format": "{icon}",
+        "format": "",
         "on-scroll-up": "hyprctl dispatch workspace e+1",
         "on-scroll-down": "hyprctl dispatch workspace e-1",
-        "on-click": "activate",
-        "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": "",
-            "9": "",
-            "urgent": "●",
-            "default": "○"
-        },
+        "active-only": false,
+        "all-outputs": true,
         "persistent-workspaces": {
-            "*": 5
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
         }
     },
 
     "clock": {
-        "format": "{:%H:%M}",
-        "format-alt": "{:%Y-%m-%d}",
-        "tooltip-format": "<big>{:%A, %B %d}</big>\n<tt><small>{calendar}</small></tt>"
+        "format": "{:%H:%M:%S}",
+        "format-alt": "{:%A, %B %d}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "on-click": "mode",
+        "interval": 1
     },
 
     "cpu": {
-        "format": "󰍛 {usage}%",
-        "tooltip": false,
-        "interval": 1
+        "format": "󰻠 {usage}%",
+        "tooltip": true,
+        "interval": 2
     },
 
     "memory": {
-        "format": "󰘚 {percentage}%",
-        "tooltip": false,
-        "interval": 1
+        "format": "󰍛 {percentage}%",
+        "tooltip": true,
+        "interval": 2
+    },
+
+    "wireplumber": {
+        "format": "󰕾 {volume}%",
+        "format-muted": "󰝟",
+        "on-click": "pavucontrol",
+        "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+        "scroll-step": 5
+    },
+
+    "backlight": {
+        "format": "󰃞 {percent}%",
+        "on-scroll-up": "brightnessctl set +5%",
+        "on-scroll-down": "brightnessctl set 5%-",
+        "scroll-step": 5
     },
 
     "network": {
         "format-wifi": "󰤨",
-        "format-ethernet": "󰤥",
+        "format-ethernet": "󰈁",
         "format-disconnected": "󰤭",
-        "tooltip-format": "{ifname}: {ipaddr}\n{essid}",
-        "on-click": "nm-connection-editor"
+        "tooltip-format": "{ifname}: {ipaddr}\n{essid} - {signalStrength}%",
+        "on-click": "nm-connection-editor",
+        "interval": 5
     },
 
     "bluetooth": {
@@ -67,53 +87,20 @@
         "on-click": "blueman-manager"
     },
 
-    "backlight": {
-        "format": "󰃠 {percent}%",
-        "on-scroll-up": "brightnessctl set +5%",
-        "on-scroll-down": "brightnessctl set 5%-"
-    },
-
     "battery": {
         "format": "{icon}",
         "format-charging": "󰂄",
-        "format-icons": ["󰂎", "󰁻", "󰁾", "󰂁", "󰁹"],
-        "tooltip-format": "{capacity}%",
+        "format-plugged": "󰂄",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
         "states": {
             "warning": 30,
             "critical": 15
-        }
-    },
-
-    "wireplumber": {
-        "format": "{icon} {volume}%",
-        "format-muted": "󰝟 muted",
-        "format-icons": {
-            "default": ["󰕿", "󰖀", "󰕾"]
         },
-        "tooltip-format": "Volume: {volume}%",
-        "on-click": "pavucontrol",
-        "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-        "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
-        "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
-    },
-
-    "custom/dot-sep": {
-        "format": "󰧞",
-        "tooltip": false
-    },
-
-    "custom/spacer": {
-        "format": " ",
-        "tooltip": false
+        "tooltip-format": "{capacity}%, {timeTo}"
     },
 
     "tray": {
         "icon-size": 14,
         "spacing": 6
-    },
-
-    "custom/tray-dots": {
-        "format": "⋯",
-        "tooltip": false
     }
 }
