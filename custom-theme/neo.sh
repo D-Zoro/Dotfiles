@@ -31,7 +31,7 @@ window {
 
 /* Main backgrounds */
 .background {
-    background: linear-gradient(135deg, 
+    background-image: linear-gradient(135deg, 
         rgba(12, 0, 18, 0.85) 0%, 
         rgba(20, 0, 30, 0.85) 50%, 
         rgba(12, 0, 18, 0.85) 100%);
@@ -40,7 +40,7 @@ window {
 /* Headers and titlebars */
 headerbar,
 .titlebar {
-    background: linear-gradient(90deg, 
+    background-image: linear-gradient(90deg, 
         rgba(40, 0, 60, 0.9) 0%, 
         rgba(60, 0, 80, 0.9) 100%);
     border: 2px solid #bb00ff;
@@ -52,7 +52,7 @@ headerbar,
 
 /* Buttons */
 button {
-    background: linear-gradient(100deg, 
+    background-image: linear-gradient(100deg, 
         rgba(40, 0, 60, 0.6) 0%, 
         rgba(60, 0, 80, 0.6) 100%);
     border: 2px solid #bb00ff;
@@ -64,14 +64,13 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(100deg, #bb00ff 0%, #9900cc 100%);
+    background-image: linear-gradient(100deg, #bb00ff 0%, #9900cc 100%);
     box-shadow: 0 0 10px rgba(187, 0, 255, 0.5);
     color: #ffffff;
 }
 
 button:active {
-    background: linear-gradient(100deg, #9900cc 0%, #bb00ff 100%);
-    transform: scale(0.98);
+    background-image: linear-gradient(100deg, #9900cc 0%, #bb00ff 100%);
 }
 
 /* Entry fields */
@@ -93,7 +92,7 @@ entry:focus {
 
 /* THUNAR SPECIFIC */
 .thunar {
-    background: linear-gradient(135deg, 
+    background-image: linear-gradient(135deg, 
         rgba(8, 0, 14, 0.95) 0%, 
         rgba(15, 0, 25, 0.95) 50%, 
         rgba(8, 0, 14, 0.95) 100%);
@@ -105,7 +104,7 @@ entry:focus {
 /* Top Menu Bar (File, Edit, View) fixes */
 .thunar menubar,
 menubar {
-    background: linear-gradient(90deg, 
+    background-image: linear-gradient(90deg, 
         rgba(40, 0, 60, 0.95) 0%, 
         rgba(60, 0, 80, 0.95) 100%);
     padding: 4px;
@@ -125,14 +124,14 @@ menubar > menuitem {
 
 .thunar menubar > menuitem:hover,
 menubar > menuitem:hover {
-    background: rgba(187, 0, 255, 0.3);
+    background-color: rgba(187, 0, 255, 0.3);
     box-shadow: 0 0 8px rgba(187, 0, 255, 0.4);
 }
 
 .thunar .view,
 .thunar iconview,
 .thunar treeview {
-    background: rgba(12, 0, 18, 0.7);
+    background-color: rgba(12, 0, 18, 0.7);
     color: #bb00ff;
     border-radius: 12px;
     text-shadow: 0 0 3px rgba(153, 0, 204, 0.6);
@@ -140,32 +139,27 @@ menubar > menuitem:hover {
     font-size: 1.05em;
 }
 
-/* File name truncation for long names */
-.thunar .filename-label,
-.thunar .file-name,
-.thunar .name-cell {
-    max-width: 160px;  /* Adjust as needed */
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+/* Thunar filename styling - with fixes for GTK compatibility */
+.thunar label,
+.file-label,
+.filename-label,
+.name-label {
+    font-weight: 600;
+    text-shadow: 0 0 4px rgba(187, 0, 255, 0.5);
+    letter-spacing: 0.03em;
 }
 
-/* Show full name when hovering or active */
-.thunar .filename-label:hover,
-.thunar .file-name:hover,
-.thunar .name-cell:hover,
-.thunar .view:selected .filename-label,
-.thunar .view:selected .file-name,
-.thunar .view:selected .name-cell,
-.thunar iconview:selected .filename-label,
-.thunar treeview:selected .filename-label {
-    max-width: none;
-    white-space: normal;
-    overflow: visible;
+/* File name display handling - fixed for GTK compatibility */
+.thunar .view:selected label,
+.thunar iconview:selected label,
+.thunar treeview:selected label {
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
 }
 
 .thunar .sidebar {
-    background: rgba(25, 0, 40, 0.75);
+    background-color: rgba(25, 0, 40, 0.75);
     border-right: 2px solid #bb00ff;
     border-radius: 12px 0 0 12px;
 }
@@ -179,7 +173,7 @@ menubar > menuitem:hover {
 .thunar .view:selected,
 .thunar iconview:selected,
 .thunar treeview:selected {
-    background: linear-gradient(100deg, #bb00ff 0%, #9900cc 100%);
+    background-image: linear-gradient(100deg, #bb00ff 0%, #9900cc 100%);
     color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(187, 0, 255, 0.5);
@@ -189,24 +183,14 @@ menubar > menuitem:hover {
 .thunar .view:hover,
 .thunar iconview:hover,
 .thunar treeview:hover {
-    background: rgba(40, 0, 60, 0.5);
+    background-color: rgba(40, 0, 60, 0.5);
     border-radius: 8px;
-    transition: all 0.15s ease;
-}
-
-/* File labels and names specific styling */
-.thunar label,
-.file-label,
-.filename-label,
-.name-label {
-    font-weight: 600;
-    text-shadow: 0 0 4px rgba(187, 0, 255, 0.5);
-    letter-spacing: 0.03em;
+    transition: all 0.2s ease;
 }
 
 /* Menus */
 menu {
-    background: rgba(12, 0, 18, 0.95);
+    background-color: rgba(12, 0, 18, 0.95);
     border: 2px solid #bb00ff;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(187, 0, 255, 0.6);
@@ -218,25 +202,25 @@ menuitem {
     margin: 4px 0;
     border-radius: 8px;
     background-color: rgba(40, 0, 60, 0.3);
-    transition: all 0.15s ease;
+    transition: all 0.2s ease;
 }
 
 menuitem:hover {
-    background: linear-gradient(100deg, #bb00ff 0%, #9900cc 100%);
+    background-image: linear-gradient(100deg, #bb00ff 0%, #9900cc 100%);
     color: #ffffff;
     box-shadow: 0 0 10px rgba(187, 0, 255, 0.5);
 }
 
 /* Scrollbars */
 scrollbar {
-    background: rgba(20, 0, 30, 0.8);
+    background-color: rgba(20, 0, 30, 0.8);
     border-radius: 10px;
     min-width: 10px;
     min-height: 10px;
 }
 
 scrollbar slider {
-    background: linear-gradient(90deg, 
+    background-image: linear-gradient(90deg, 
         rgba(187, 0, 255, 0.6) 0%, 
         rgba(127, 0, 255, 0.6) 100%);
     border-radius: 10px;
@@ -246,14 +230,14 @@ scrollbar slider {
 }
 
 scrollbar slider:hover {
-    background: linear-gradient(90deg, 
+    background-image: linear-gradient(90deg, 
         rgba(187, 0, 255, 0.8) 0%, 
         rgba(127, 0, 255, 0.8) 100%);
 }
 
 /* Tooltips */
 tooltip {
-    background: rgba(40, 0, 60, 0.9);
+    background-color: rgba(40, 0, 60, 0.9);
     border: 2px solid #bb00ff;
     border-radius: 8px;
     color: #bb00ff;
@@ -262,7 +246,7 @@ tooltip {
 
 /* Text selection */
 *:selected {
-    background: linear-gradient(100deg, #bb00ff 0%, #9900cc 100%);
+    background-image: linear-gradient(100deg, #bb00ff 0%, #9900cc 100%);
     color: #ffffff;
 }
 
@@ -287,7 +271,7 @@ tooltip {
     padding: 2px;
     margin: 1px;
     border-radius: 6px;
-    background: transparent;
+    background-color: transparent;
     border: 1px solid transparent;
 }
 
@@ -296,17 +280,16 @@ tooltip {
 .xfce4-panel button:hover,
 .mate-panel button:hover,
 .gnome-panel button:hover {
-    background: rgba(187, 0, 255, 0.3);
+    background-color: rgba(187, 0, 255, 0.3);
     border: 1px solid #bb00ff;
 }
 
-/* Status Icons / Tray Icons */
+/* Status Icons / Tray Icons - fixed for GTK compatibility */
 .status-icon,
 .system-tray-icon,
 .tray-icon,
 .status-notifier-item,
 .indicator-item {
-    -gtk-icon-transform: scale(0.85);
     padding: 2px;
     color: #bb00ff;
 }
@@ -336,6 +319,149 @@ TreeIconSize=THUNAR_ICON_SIZE_SMALLER
 SmallIconSize=THUNAR_ICON_SIZE_SMALL
 ThumbnailMode=THUNAR_THUMBNAIL_MODE_ALWAYS
 ThumbnailSize=THUNAR_THUMBNAIL_SIZE_NORMAL
+EOF
+
+# Create a separate Waybar specific CSS to avoid GTK errors
+mkdir -p ~/.config/waybar
+cat > ~/.config/waybar/style.css << 'EOF'
+/* Waybar Neo Purple Theme */
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: linear-gradient(90deg, 
+        rgba(8, 0, 14, 0.85) 0%, 
+        rgba(20, 0, 30, 0.85) 100%);
+    border-bottom: 2px solid #bb00ff;
+    color: #bb00ff;
+    box-shadow: 0 0 15px rgba(187, 0, 255, 0.4);
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: #bb00ff;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button:hover {
+    background: rgba(187, 0, 255, 0.2);
+    box-shadow: inherit;
+    text-shadow: 0 0 5px rgba(187, 0, 255, 0.7);
+}
+
+#workspaces button.focused {
+    background: rgba(187, 0, 255, 0.3);
+    border-bottom: 3px solid #bb00ff;
+    box-shadow: 0 0 8px rgba(187, 0, 255, 0.6);
+}
+
+#mode {
+    background: #bb00ff;
+    border-bottom: 3px solid #ffffff;
+    color: white;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd {
+    padding: 0 10px;
+    margin: 0 2px;
+    color: #bb00ff;
+    text-shadow: 0 0 3px rgba(187, 0, 255, 0.5);
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#battery {
+}
+
+#battery.charging {
+    color: #00ffe1;
+    text-shadow: 0 0 3px rgba(0, 255, 225, 0.5);
+}
+
+@keyframes blink {
+    to {
+        background-color: rgba(187, 0, 255, 0.3);
+        color: #ffffff;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: rgba(255, 0, 93, 0.6);
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#backlight {
+}
+
+#network {
+}
+
+#network.disconnected {
+    color: rgba(255, 0, 93, 0.6);
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+    color: rgba(255, 0, 93, 0.6);
+}
+
+#custom-media {
+    min-width: 100px;
+}
+
+#temperature {
+}
+
+#temperature.critical {
+    color: rgba(255, 0, 93, 0.6);
+}
+
+#tray {
+    padding: 0 8px;
+}
+
+#idle_inhibitor {
+}
+
+#idle_inhibitor.activated {
+    color: #00ffe1;
+    text-shadow: 0 0 3px rgba(0, 255, 225, 0.5);
+}
 EOF
 
 echo "✅ Neo Purple theme installed!"
