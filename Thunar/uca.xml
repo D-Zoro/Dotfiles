@@ -2,14 +2,114 @@
 <actions>
 <action>
 	<icon>utilities-terminal</icon>
-	<name>Open Terminal Here</name>
+	<name>Terminal here</name>
 	<submenu></submenu>
-	<unique-id>1748640830914875-1</unique-id>
-	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
-	<description>Example for a custom action</description>
+	<unique-id>1234567890123456-1</unique-id>
+	<command>kitty --working-directory=%f</command>
+	<description>Open terminal in current directory</description>
 	<range></range>
 	<patterns>*</patterns>
 	<startup-notify/>
 	<directories/>
+</action>
+<action>
+	<icon>nvim</icon>
+	<name>neovim this</name>
+	<submenu></submenu>
+	<unique-id>1234567890123456-2</unique-id>
+	<command>kitty -e nvim %f</command>
+	<description>Edit file with Neovim in terminal</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>code</icon>
+	<name>code this</name>
+	<submenu></submenu>
+	<unique-id>1234567890123456-3</unique-id>
+	<command>code %f</command>
+	<description>Open with Visual Studio Code</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>package-x-generic</icon>
+	<name>extract to %f%f</name>
+	<submenu></submenu>
+	<unique-id>1234567890123456-4</unique-id>
+	<command>file-roller --extract-to=%f %f</command>
+	<description>Extract archive contents to current folder</description>
+	<range></range>
+	<patterns>*.zip;*.rar;*.tar;*.tar.gz;*.tar.bz2;*.tar.xz;*.7z;*.gz;*.bz2</patterns>
+	<startup-notify/>
+	<other-files/>
+</action>
+<action>
+	<icon>package-x-generic</icon>
+	<name>extract </name>
+	<submenu></submenu>
+	<unique-id>1234567890123456-5</unique-id>
+	<command>file-roller --extract %f</command>
+	<description>Extract archive with options</description>
+	<range></range>
+	<patterns>*.zip;*.rar;*.tar;*.tar.gz;*.tar.bz2;*.tar.xz;*.7z;*.gz;*.bz2</patterns>
+	<startup-notify/>
+	<other-files/>
+</action>
+<action>
+	<icon>applications-system</icon>
+	<name>Sudo open</name>
+	<submenu></submenu>
+	<unique-id>1234567890123456-6</unique-id>
+	<command>sudo thunar %f</command>
+	<description>Open location with root privileges</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>edit-copy</icon>
+	<name>yank path</name>
+	<submenu></submenu>
+	<unique-id>1234567890123456-7</unique-id>
+	<command>echo -n %f | wl-copy</command>
+	<description>Copy full path to clipboard (Wayland)</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>folder</icon>
+	<name>new folder</name>
+	<submenu></submenu>
+	<unique-id>1234567890123456-8</unique-id>
+	<command>mkdir &quot;%f/New Folder&quot;</command>
+	<description>Create new folder</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>image-x-generic</icon>
+	<name>Edit with Swappy</name>
+	<submenu></submenu>
+	<unique-id>1234567890123456-9</unique-id>
+	<command>swappy -f %f</command>
+	<description>Edit image with Swappy</description>
+	<range></range>
+	<patterns>*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.webp</patterns>
+	<startup-notify/>
+	<other-files/>
 </action>
 </actions>
