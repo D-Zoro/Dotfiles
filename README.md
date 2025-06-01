@@ -1,6 +1,7 @@
 Oh yea "I USE ARCH BTW"
 
-steal it if you want its half of it is either broken or under process
+steal it if you want half of it is either broken or under process anyway
+
 ### Screenshots
 
 #### Screenshot 1
