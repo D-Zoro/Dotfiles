@@ -11,7 +11,7 @@ return {
           auto_trigger = true,
           debounce = 75,
           keymap = {
-            accept = "<C-l>", -- or "<C-l>" if you prefer
+            accept = "<Tab>", -- or "<C-l>" if you prefer
             next = "<M-]>",
             prev = "<M-[>",
             dismiss = "<C-j>",

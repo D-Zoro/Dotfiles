@@ -9,3 +9,4 @@ application/gzip=org.gnome.FileRoller.desktop
 
 [Added Associations]
 text/plain=nvim.desktop;
+inode/directory=code.desktop;
