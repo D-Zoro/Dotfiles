@@ -1,0 +1,56 @@
+-- ~/.config/nvim/lua/plugins/toggleterm.lua
+
+return {
+  "akinsho/toggleterm.nvim",
+  keys = {
+    { "<leader>tt", "<cmd>lua _FLOAT_TERM()<CR>", desc = "Toggle Floating Terminal" },
+  },
+  opts = {
+    size = 20,
+    open_mapping = [[<c-\>]],
+    start_in_insert = true,
+    insert_mappings = true,
+    terminal_mappings = true,
+    persist_size = true,
+    direction = "float",
+    close_on_exit = true,
+    shell = "/bin/zsh",
+    float_opts = {
+      border = "curved",
+      winblend = 10,
+    },
+  },
+  config = function(_, opts)
+    require("toggleterm").setup(opts)
+
+    -- 🔁 Reapply highlights AFTER theme loads
+    vim.api.nvim_create_autocmd("ColorScheme", {
+      callback = function()
+        vim.api.nvim_set_hl(0, "TermFloatBorder", { fg = "#9B5DE5", bg = "#1E1E2E" })
+        vim.api.nvim_set_hl(0, "TermFloatBg", { fg = "#DAD4F6", bg = "#1E1E2E" })
+      end,
+    })
+
+    -- 🚀 Apply it right now too (first load)
+    vim.api.nvim_set_hl(0, "TermFloatBorder", { fg = "#9B5DE5", bg = "#1E1E2E" })
+    vim.api.nvim_set_hl(0, "TermFloatBg", { fg = "#DAD4F6", bg = "#1E1E2E" })
+
+    function _FLOAT_TERM()
+      local Terminal = require("toggleterm.terminal").Terminal
+      local float_term = Terminal:new({
+        direction = "float",
+        dir = vim.fn.expand("%:p:h"),
+        hidden = true,
+        on_open = function(term)
+          vim.cmd("startinsert!")
+        end,
+        float_opts = {
+          border = "curved",
+          winblend = 10,
+          winhighlight = "Normal:TermFloatBg,FloatBorder:TermFloatBorder",
+        },
+      })
+      float_term:toggle()
+    end
+  end,
+}
