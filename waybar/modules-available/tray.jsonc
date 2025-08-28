@@ -1,0 +1,7 @@
+// System tray settings
+{
+  "tray": {
+    "icon-size": 16,
+    "spacing": 8
+  }
+}

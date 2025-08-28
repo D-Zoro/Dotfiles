@@ -1,0 +1,13 @@
+// Network status
+{
+  "network": {
+    "interval": 2,
+    "format-wifi": "󰖩 {essid} {signalStrength}%",
+    "format-ethernet": "󰈁 {ifname}",
+    "format-disconnected": "󰖪 offline",
+    "tooltip": true,
+    // Left click opens NM editor (if installed)
+    "on-click": "nm-connection-editor || foot -e nmtui || alacritty -e nmtui",
+    "max-length": 28
+  }
+}

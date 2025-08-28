@@ -1,0 +1,4803 @@
+[2025-08-27 16:18:36.423] [info]  Setting open at login to true
+[2025-08-27 16:18:36.703] [info]  AppController previousRestorationState {}
+[2025-08-27 16:18:36.888] [info]  App starting with version 4.17.0 (78e72f0) { system: 'linux x64', electron: '36.8.1' }
+[2025-08-27 16:18:52.305] [info]                 Activated { options: {} }
+[2025-08-27 16:18:52.307] [info]                 Finished rehydrating entire app in foreground { success: false }
+[2025-08-27 16:18:52.310] [info]                 {
+  eventName: 'electron_new_window',
+  eventProperties: {
+    desktop_tab_count: 0,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 0
+  }
+}
+[2025-08-27 16:18:56.049] [warn]                 Window not found
+[2025-08-27 16:18:57.192] [info]                 New window created {
+  windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+  showWhenLoaded: true
+}
+[2025-08-27 16:18:57.433] [info]                 {
+  eventName: 'electron_new_tab',
+  eventProperties: {
+    desktop_tab_count: 1,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 1,
+    tab_section_id: 'ungrouped'
+  }
+}
+[2025-08-27 16:18:57.574] [info]                 New Tab Controller {
+  id: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+  initialUrl: 'https://www.notion.so/?loadOrigin=new_tab',
+  windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+  tabId: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+  fromPrewarmTab: false
+}
+[2025-08-27 16:18:59.299] [info]                 {
+  eventName: 'electron_app_lifecycle_event',
+  eventProperties: { lifecycle_event: 'app_start', desktop_target_platform: 'windows' }
+}
+[2025-08-27 16:19:23.119] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:19:23.718] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:19:24.440] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:19:24.598] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:19:27.129] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:19:28.170] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:21:59.652] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '5872a66a-c6ff-4cc4-a8df-936099cca3af',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 0,
+    storageQuotaEstimate: 20168896512,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 984)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/70198-e8654ff145cd6084.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-27 16:22:04.161] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '5872a66a-c6ff-4cc4-a8df-936099cca3af',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 0,
+    storageQuotaEstimate: 20168896512,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 985)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/images/blocks/text/ja-JP.5ec55e72.png"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-27 16:22:04.683] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '5872a66a-c6ff-4cc4-a8df-936099cca3af',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 0,
+    storageQuotaEstimate: 20168896512,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 2114)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/LocalizedTemplates-ff3aeefdbeab2881.css"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-27 16:22:24.452] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '5872a66a-c6ff-4cc4-a8df-936099cca3af',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 0,
+    storageQuotaEstimate: 20168896512,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerMajorVersion: 7, serviceWorkerMinorVersion: 0 },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerInstall'
+}
+[2025-08-27 16:22:28.168] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '5872a66a-c6ff-4cc4-a8df-936099cca3af',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 0,
+    storageQuotaEstimate: 20168896512,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0'
+  },
+  environment: 'production',
+  data: { serviceWorkerMajorVersion: 7, serviceWorkerMinorVersion: 0 },
+  level: 'info',
+  from: 'serviceWorker',
+  type: 'serviceWorkerActivate'
+}
+[2025-08-27 16:23:28.145] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:23:28.660] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:23:31.441] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:23:31.856] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:23:47.160] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:23:47.935] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:24:55.889] [info]  AppController previousRestorationState {
+  previousRestorationState: {
+    windows: [
+      {
+        windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+        focusOrder: 47,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 1920, height: 1080 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: '7ce280f9-65e2-4f1b-9586-325d84b03c16' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+            url: 'https://www.notion.so/',
+            title: 'Log in',
+            index: 0,
+            appStoreState: {}
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2025-08-27 16:24:56.726] [info]                         Activated {
+  launchController: 'https://www.notion.so/oauth2callback?state=eyJjYWxsYmFja1R5cGUiOiJuYXRpdmVyZWRpcmVjdCIsImVuY3J5cHRlZFRva2VuIjoidjAyOmxvZ2luX3dpdGhfZ29vZ2xlOnVGTTA3MUliU29TY3luNjVIN29CeERuSWZpQWN3eWs0TGRYQTdoemFKTnZkV1JSTzVZcHgxRlYxSms4Zl9KS2RSUFpXNzh1Q2ZCRTZ3UUZxbkU3TUdDdlJsTk5YeU5CanZHWHB5NmZlOWtleTBobUFob3l0VUtYV0xZYnI1bDRfMlNsUiJ9&code=4%2F0AVMBsJghc1wwef-S18DRtO-S1tXmdkG3e2HefSVDGms6FU8Hk9uL83CCClIav0QLBDS8iA&scope=email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20openid&authuser=1&prompt=consent&cs_completed=true&tid=5d36780d95b3488e9d639d9fa692cecc&di=88fbdbc1dc0e4c32875deaa57625ff61',
+  options: { forceNewWindow: true }
+}
+[2025-08-27 16:24:56.727] [info]                         Finished rehydrating entire app in foreground { success: false }
+[2025-08-27 16:24:56.730] [info]                         {
+  eventName: 'electron_new_tab',
+  eventProperties: {
+    desktop_tab_count: 2,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 2,
+    tab_section_id: 'ungrouped'
+  }
+}
+[2025-08-27 16:25:00.240] [info]  AppController previousRestorationState {
+  previousRestorationState: {
+    windows: [
+      {
+        windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+        focusOrder: 47,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 1920, height: 1080 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: '7ce280f9-65e2-4f1b-9586-325d84b03c16' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+            url: 'https://www.notion.so/',
+            title: 'Log in',
+            index: 0,
+            appStoreState: {}
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2025-08-27 16:25:00.471] [info]                         New Tab Controller {
+  id: '0a2dc538-8299-4a21-adc6-7b1b34853cab',
+  initialUrl: 'https://www.notion.so/oauth2callback?state=eyJjYWxsYmFja1R5cGUiOiJuYXRpdmVyZWRpcmVjdCIsImVuY3J5cHRlZFRva2VuIjoidjAyOmxvZ2luX3dpdGhfZ29vZ2xlOnVGTTA3MUliU29TY3luNjVIN29CeERuSWZpQWN3eWs0TGRYQTdoemFKTnZkV1JSTzVZcHgxRlYxSms4Zl9KS2RSUFpXNzh1Q2ZCRTZ3UUZxbkU3TUdDdlJsTk5YeU5CanZHWHB5NmZlOWtleTBobUFob3l0VUtYV0xZYnI1bDRfMlNsUiJ9&code=4%2F0AVMBsJghc1wwef-S18DRtO-S1tXmdkG3e2HefSVDGms6FU8Hk9uL83CCClIav0QLBDS8iA&scope=email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20openid&authuser=1&prompt=consent&cs_completed=true&tid=5d36780d95b3488e9d639d9fa692cecc&di=88fbdbc1dc0e4c32875deaa57625ff61&loadOrigin=new_tab',
+  windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+  tabId: '0a2dc538-8299-4a21-adc6-7b1b34853cab',
+  fromPrewarmTab: true
+}
+[2025-08-27 16:25:00.979] [info]  App starting with version 4.17.0 (78e72f0) { system: 'linux x64', electron: '36.8.1' }
+[2025-08-27 16:25:02.745] [info]                         Activated {
+  launchController: 'https://www.notion.so/oauth2callback?state=eyJjYWxsYmFja1R5cGUiOiJuYXRpdmVyZWRpcmVjdCIsImVuY3J5cHRlZFRva2VuIjoidjAyOmxvZ2luX3dpdGhfZ29vZ2xlOnVGTTA3MUliU29TY3luNjVIN29CeERuSWZpQWN3eWs0TGRYQTdoemFKTnZkV1JSTzVZcHgxRlYxSms4Zl9KS2RSUFpXNzh1Q2ZCRTZ3UUZxbkU3TUdDdlJsTk5YeU5CanZHWHB5NmZlOWtleTBobUFob3l0VUtYV0xZYnI1bDRfMlNsUiJ9&code=4%2F0AVMBsJghc1wwef-S18DRtO-S1tXmdkG3e2HefSVDGms6FU8Hk9uL83CCClIav0QLBDS8iA&scope=email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20openid&authuser=1&prompt=consent&cs_completed=true&tid=5d36780d95b3488e9d639d9fa692cecc&di=88fbdbc1dc0e4c32875deaa57625ff61',
+  options: { forceNewWindow: true }
+}
+[2025-08-27 16:25:02.745] [info]                         Finished rehydrating entire app in foreground { success: false }
+[2025-08-27 16:25:02.758] [info]  App starting with version 4.17.0 (78e72f0) { system: 'linux x64', electron: '36.8.1' }
+[2025-08-27 16:25:09.486] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: false }
+[2025-08-27 16:25:19.864] [error]                        Error loading URL in loadFullUrl: https://www.notion.so/login?loadOrigin=refresh_all_ipc&tabCount=2 Error:  (-3) loading 'https://www.notion.so/login?loadOrigin=refresh_all_ipc&tabCount=2'
+    at rejectAndCleanup (node:electron/js2c/browser_init:2:79523)
+    at WebContents.finishListener (node:electron/js2c/browser_init:2:79685)
+    at WebContents.emit (node:events:518:28)
+[2025-08-27 16:25:19.866] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '2844fbf0-597b-476e-b406-dc89fc13ad36',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    referrer: 'https://www.notion.so/blank',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354400939,
+    storageQuotaEstimate: 20005505707,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0'
+  },
+  environment: 'production',
+  level: 'info',
+  from: 'main',
+  type: 'unhandledRejection',
+  error: {
+    name: 'Error',
+    message: " (-3) loading 'https://www.notion.so/login?loadOrigin=refresh_all_ipc&tabCount=2'",
+    stack: "Error:  (-3) loading 'https://www.notion.so/login?loadOrigin=refresh_all_ipc&tabCount=2'\n" +
+      '    at rejectAndCleanup (node:electron/js2c/browser_init:2:79523)\n' +
+      '    at WebContents.finishListener (node:electron/js2c/browser_init:2:79685)\n' +
+      '    at WebContents.emit (node:events:518:28)'
+  }
+}
+[2025-08-27 16:25:22.569] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:25:23.610] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:25:28.373] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:25:29.180] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:25:30.956] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:25:31.956] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:25:42.043] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '8b1387b2-608e-4a3e-9094-1b4096c7d5c3',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354447787,
+    storageQuotaEstimate: 18868941227,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/19854-c116e651eae18bb5.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:25:43.991] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:25:45.020] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:25:46.767] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'aa1dc5cd-3a82-4f08-8bcf-765f354f07ca',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354478608,
+    storageQuotaEstimate: 18771368464,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/plan-type-for-work-split-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:25:47.267] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'aa1dc5cd-3a82-4f08-8bcf-765f354f07ca',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354478608,
+    storageQuotaEstimate: 18771368464,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/plan-type-for-school-split-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:25:48.259] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:25:48.451] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:26:00.447] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'c3da2ab6-6994-4e2f-b9df-f3eb60048f95',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354493873,
+    storageQuotaEstimate: 18769184177,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/plan-type-for-work-split-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:26:00.947] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'c3da2ab6-6994-4e2f-b9df-f3eb60048f95',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354493873,
+    storageQuotaEstimate: 18769184177,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/plan-type-for-school-split-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:26:15.902] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'c3da2ab6-6994-4e2f-b9df-f3eb60048f95',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354493873,
+    storageQuotaEstimate: 18769184177,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/multiplayer-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:26:16.402] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'c3da2ab6-6994-4e2f-b9df-f3eb60048f95',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354493873,
+    storageQuotaEstimate: 18769184177,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/singleplayer-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:26:24.935] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:26:25.088] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:26:26.266] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '74e68069-db77-4c01-bd76-90c2ff78f87c',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354494106,
+    storageQuotaEstimate: 18745112218,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3',
+    isPersistent: true
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/multiplayer-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:26:26.767] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '74e68069-db77-4c01-bd76-90c2ff78f87c',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354494106,
+    storageQuotaEstimate: 18745112218,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3',
+    isPersistent: true
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/singleplayer-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:26:28.993] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '74e68069-db77-4c01-bd76-90c2ff78f87c',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354494106,
+    storageQuotaEstimate: 18745112218,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3',
+    isPersistent: true
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/plan-type-for-work-split-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:26:29.494] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '74e68069-db77-4c01-bd76-90c2ff78f87c',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354494106,
+    storageQuotaEstimate: 18745112218,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3',
+    isPersistent: true
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/plan-type-for-school-split-intent-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:26:37.216] [error]                        DetachFromWindow: TabController 0a2dc538-8299-4a21-adc6-7b1b34853cab not attached to any window
+[2025-08-27 16:26:52.986] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '74e68069-db77-4c01-bd76-90c2ff78f87c',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354494106,
+    storageQuotaEstimate: 18745112218,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3',
+    isPersistent: true
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/onboarding/category-picker-large-darkmode.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 16:27:18.717] [info]                         ServerLoggerForOffline Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '74e68069-db77-4c01-bd76-90c2ff78f87c',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354494106,
+    storageQuotaEstimate: 18745112218,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3',
+    isPersistent: true
+  },
+  environment: 'production',
+  data: {
+    miscDataString: '{"isOnline":true,"hasCurrentSpaceStore":false,"hasCurrentSpaceViewStore":false,"hasCurrentUserRootStore":true,"hasCurrentUserSettingsStore":true,"documentVisibilityState":"hidden","isOnPublicPage":false,"isOnPublicShareLinkPage":false}'
+  },
+  level: 'error',
+  from: 'SidebarContentContainer',
+  type: 'sidebarLoadingTimeout',
+  error: { message: 'Sidebar took longer than 90 seconds to load.' }
+}
+[2025-08-27 16:27:24.334] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 16:27:24.763] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 16:28:38.930] [info]                         ServerLoggerForOffline Message {
+  level: 'info',
+  from: 'serverLoggerForOffline.ts',
+  type: 'splunkSendSuccess'
+}
+[2025-08-27 16:29:49.778] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'a6ab11c0-4a47-40a0-97c3-23dbb8565d10',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354590873,
+    storageQuotaEstimate: 18732142745,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 907)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/images/blocks/quote/pr-BR.67f79da8.png"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-27 16:29:50.278] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'a6ab11c0-4a47-40a0-97c3-23dbb8565d10',
+    version: '23.13.0.4756',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 354590873,
+    storageQuotaEstimate: 18732142745,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 2114)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/LocalizedTemplates-ff3aeefdbeab2881.css"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-27 16:58:53.361] [info]                         Preventing closure for window with id 1, hiding
+[2025-08-27 22:10:33.108] [info]                         {
+  eventName: 'electron_memory_usage',
+  eventProperties: {
+    tabs_private_memory_total: 341,
+    tabs_working_set_size_total: 525,
+    app_working_set_size_total: 1325,
+    tab_process_count: 2
+  }
+}
+[2025-08-27 22:11:08.496] [info]                         Quitting...
+[2025-08-27 22:11:08.500] [error]                        DetachFromWindow: TabController f421a4d5-3ffd-460c-baa3-c1f3bbfa31d3 not attached to any window
+[2025-08-27 22:11:08.620] [info]                         Window with id 1 closed
+[2025-08-27 22:19:51.019] [info]  AppController previousRestorationState {
+  previousRestorationState: {
+    windows: [
+      {
+        windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+        focusOrder: 74,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 1920, height: 1080 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: '7ce280f9-65e2-4f1b-9586-325d84b03c16' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+            url: 'https://www.notion.so/Weekly-To-do-List-25c232258f0080d4aa9be2f3b731f131',
+            title: 'Weekly To-do List',
+            favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAACaSURBVFhHY2QYYMA4wPYzjDpgNAQwQqC+vt4BmDDroYmzEQgOwBIqUK6B0kQLNA/FDGwOuA+0RAFq0QGgBkckB/ynggNQ7CTkgAdAByjS2wGgKJgPxA+AmP5RQGkQk6p/NBsOvhAYLQeAIYBcEI2WA6Rma5LVD75cQLIXKNQw+EJgtBwYLQcoTNQkax98uYBkL1CoYTQEBjwEAPX0byFCtYLzAAAAAElFTkSuQmCC',
+            index: 0,
+            appStoreState: [Object]
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2025-08-27 22:19:51.071] [info]  App starting with version 4.17.0 (78e72f0) { system: 'linux x64', electron: '36.8.1' }
+[2025-08-27 22:19:55.450] [info]                 Activated { options: {} }
+[2025-08-27 22:19:55.452] [info]                 Rehydrating app in foreground {
+  restorationState: {
+    windows: [
+      {
+        windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+        focusOrder: 74,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 1920, height: 1080 },
+          displayBounds: [ [Object] ],
+          isFullScreen: false,
+          isHtmlFullScreen: false,
+          isMaximized: true
+        },
+        activeTabIdMap: { ungrouped: '7ce280f9-65e2-4f1b-9586-325d84b03c16' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+            url: 'https://www.notion.so/Weekly-To-do-List-25c232258f0080d4aa9be2f3b731f131',
+            title: 'Weekly To-do List',
+            favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAACaSURBVFhHY2QYYMA4wPYzjDpgNAQwQqC+vt4BmDDroYmzEQgOwBIqUK6B0kQLNA/FDGwOuA+0RAFq0QGgBkckB/ynggNQ7CTkgAdAByjS2wGgKJgPxA+AmP5RQGkQk6p/NBsOvhAYLQeAIYBcEI2WA6Rma5LVD75cQLIXKNQw+EJgtBwYLQcoTNQkax98uYBkL1CoYTQEBjwEAPX0byFCtYLzAAAAAElFTkSuQmCC',
+            index: 0,
+            appStoreState: [Object]
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2025-08-27 22:19:55.456] [info]                 {
+  eventName: 'electron_new_window',
+  eventProperties: {
+    desktop_tab_count: 0,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 0
+  }
+}
+[2025-08-27 22:19:56.458] [warn]                 Window not found
+[2025-08-27 22:19:56.641] [info]                 New window created {
+  windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+  activeTabSectionId: 'ungrouped',
+  showWhenLoaded: true,
+  displayState: {
+    normalBounds: { x: 0, y: 0, width: 1920, height: 1080 },
+    displayBounds: [ { x: 0, y: 0, width: 1920, height: 1080 } ],
+    isFullScreen: false,
+    isHtmlFullScreen: false,
+    isMaximized: true
+  }
+}
+[2025-08-27 22:19:56.668] [info]                 New Tab Controller {
+  id: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+  initialUrl: 'https://www.notion.so/Weekly-To-do-List-25c232258f0080d4aa9be2f3b731f131?loadOrigin=new_tab_on_restore',
+  windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+  tabId: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+  fromPrewarmTab: false
+}
+[2025-08-27 22:19:56.683] [info]                 Finished rehydrating entire app in foreground { success: true }
+[2025-08-27 22:19:57.756] [info]                 {
+  eventName: 'electron_app_lifecycle_event',
+  eventProperties: { lifecycle_event: 'app_start', desktop_target_platform: 'windows' }
+}
+[2025-08-27 22:20:07.614] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 22:20:08.272] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 22:20:08.614] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 22:20:08.911] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 22:20:09.737] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 22:20:10.091] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 22:21:37.991] [info]                         ServerLoggerForOffline Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    miscDataString: '{"isOnline":true,"hasCurrentSpaceStore":false,"hasCurrentSpaceViewStore":false,"hasCurrentUserRootStore":true,"hasCurrentUserSettingsStore":true,"documentVisibilityState":"hidden","isOnPublicPage":false,"isOnPublicShareLinkPage":false}'
+  },
+  level: 'error',
+  from: 'SidebarContentContainer',
+  type: 'sidebarLoadingTimeout',
+  error: { message: 'Sidebar took longer than 90 seconds to load.' }
+}
+[2025-08-27 22:23:35.708] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/solid_red.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:23:36.347] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/solid_yellow.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:23:36.847] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/met_klimt_1912.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:24:54.049] [info]                         ServerLoggerForOffline Message {
+  level: 'info',
+  from: 'serverLoggerForOffline.ts',
+  type: 'splunkSendSuccess'
+}
+[2025-08-27 22:30:19.065] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 965)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/WikiPromoPopup-713680c9dc12902f.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-27 22:30:19.564] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 2114)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/LocalizedTemplates-ff3aeefdbeab2881.css"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-27 22:37:15.338] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/connectedApps/accountCreationUpsellTooltip/calendar/1x/en-US.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:38:29.639] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/connectedApps/accountCreationUpsellTooltip/mail/1x/en-US.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:39:54.672] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/connectedApps/accountCreationUpsellTooltip/calendar/1x/en-US.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:40:26.585] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 969)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/PasskeyNudgeModal-3db46842e069564d.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-27 22:40:27.085] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'def388b1-c07a-4146-aced-40988a0e08cc',
+    version: '23.13.0.4757',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 505111043,
+    storageQuotaEstimate: 19751694851,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 2113)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/images/icons/todo.ed420552.png"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-27 22:44:51.280] [info]                         Sending update install notification to all windows
+[2025-08-27 22:44:54.429] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 22:44:54.662] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 22:44:54.896] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 22:44:54.988] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 22:48:24.069] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '6afe8cf7-2e4a-4840-b143-3d99308d1711',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 310394914,
+    storageQuotaEstimate: 19690647586,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/connectedApps/accountCreationUpsellTooltip/calendar/1x/en-US.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:54:57.684] [info]                         {
+  eventName: 'electron_new_tab',
+  eventProperties: {
+    desktop_tab_count: 2,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 2,
+    tab_section_id: 'ungrouped'
+  }
+}
+[2025-08-27 22:54:58.263] [info]                         New Tab Controller {
+  id: 'e7b4b964-8816-43e5-b6c9-bb3234394c9d',
+  initialUrl: 'https://www.notion.so/6-Databases-25c232258f00809fa44bf4eed68d47e9?pvs=26&qid=1%3Abb2491b5-e8ef-454b-b23b-c09f966c241b%3A2&loadOrigin=new_tab',
+  windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+  tabId: 'e7b4b964-8816-43e5-b6c9-bb3234394c9d',
+  fromPrewarmTab: true
+}
+[2025-08-27 22:54:59.709] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '6afe8cf7-2e4a-4840-b143-3d99308d1711',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 310394914,
+    storageQuotaEstimate: 19690647586,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/19854-c116e651eae18bb5.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:55:01.582] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '6afe8cf7-2e4a-4840-b143-3d99308d1711',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 310394914,
+    storageQuotaEstimate: 19690647586,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/33584-156a24bc11b7840a.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:55:03.767] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '6afe8cf7-2e4a-4840-b143-3d99308d1711',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 310394914,
+    storageQuotaEstimate: 19690647586,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/ai-217758a75ba17f59.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:55:04.267] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '6afe8cf7-2e4a-4840-b143-3d99308d1711',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 310394914,
+    storageQuotaEstimate: 19690647586,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/dictation-93cd8f410a53e49d.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:55:05.353] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '6afe8cf7-2e4a-4840-b143-3d99308d1711',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 310394914,
+    storageQuotaEstimate: 19690647586,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/43922-69a4eb52a6f19ac0.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:55:05.853] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '6afe8cf7-2e4a-4840-b143-3d99308d1711',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 310394914,
+    storageQuotaEstimate: 19690647586,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    isPersistent: true,
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/13057-95d728423f209465.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:55:09.596] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-27 22:55:09.786] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-27 22:56:00.546] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/workflow-templates/preview-avatar-1.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:56:01.047] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/workflow-templates/preview-avatar-3.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:56:39.992] [info]                         ServerLoggerForOffline Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    miscDataString: '{"isOnline":true,"hasCurrentSpaceStore":false,"hasCurrentSpaceViewStore":false,"hasCurrentUserRootStore":true,"hasCurrentUserSettingsStore":true,"documentVisibilityState":"hidden","isOnPublicPage":false,"isOnPublicShareLinkPage":false}'
+  },
+  level: 'error',
+  from: 'SidebarContentContainer',
+  type: 'sidebarLoadingTimeout',
+  error: { message: 'Sidebar took longer than 90 seconds to load.' }
+}
+[2025-08-27 22:56:48.905] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/TableHeaderPropertyCreationMenu-e3b5b55540537c59.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:56:50.895] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:56:51.395] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:57:25.290] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/templates/become-creator-dark.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:58:16.672] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:58:17.173] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:58:49.087] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:58:49.588] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 22:59:53.114] [info]                         ServerLoggerForOffline Message {
+  level: 'info',
+  from: 'serverLoggerForOffline.ts',
+  type: 'splunkSendSuccess'
+}
+[2025-08-27 23:00:13.216] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 23:00:13.718] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 23:01:10.022] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 23:01:10.523] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 23:02:38.846] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/CollectionNewViewsPopupComponent-87951b3182ecb521.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 23:05:28.949] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/AgentChatView-4379ddd32a02677a.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 23:09:13.784] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: 'd48f6301-7c01-4b7b-8ddd-b20b41aa4f41',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 316121472,
+    storageQuotaEstimate: 19679879552,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/_assets/WorkflowSetupInstructions-ff7830efac42a1c4.js'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-27 23:19:51.477] [info]                         {
+  eventName: 'electron_memory_usage',
+  eventProperties: {
+    tabs_private_memory_total: 816,
+    tabs_working_set_size_total: 1154,
+    app_working_set_size_total: 2238,
+    tab_process_count: 3
+  }
+}
+[2025-08-28 00:26:12.327] [info]  AppController previousRestorationState {
+  previousRestorationState: {
+    windows: [
+      {
+        windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+        focusOrder: 51,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 960, height: 1040 },
+          displayBounds: [ [Object] ],
+          isFullScreen: true,
+          isHtmlFullScreen: false,
+          isMaximized: false
+        },
+        activeTabIdMap: { ungrouped: 'e7b4b964-8816-43e5-b6c9-bb3234394c9d' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+            url: 'https://www.notion.so/Monthly-Budget-25c232258f0080119c2ddb07478577bf',
+            title: 'Monthly Budget',
+            favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAAICSURBVFhH7ZbtccIwDIZhksIkhUkKk4ROUjYpnaR0klaPKqXCyMEkueNPdefLna1Ir1592MvFg2X5YP+LfwBVBrqu20h6WE/2Xcn3JOss61WE72RJAYjzd3M65AAw+6lALgBY1G9imGhbBBa2U0D0AMQ5Tj8rXtcGCmZKmQQiAjiI5S5zIBECYCEgAZixcxSdfQtlpY4CuBE9BQc49DKQRzkaXZQOIBo+icGPgJTooNmB7sLZSc7Q52wjH5Z3Ddv8h61er8ZArHqKSo22SmPXpEw5A9/BGaibKnuOrnEAWXHR46BOpVI3MKezwc5JCYW9qgXoAOj9XeHp7NWfIUgKkjxvS90KS31hZ0XoNnqlxCgRlTOjWjuVGlnDlAOAqnLI9AYtWnBoR7RG78BFP2NYUzw0iHT4iPAzABFFXUQ0mKoA4mD14Fs6vMq7oDbp9Cf5YXTXJEWrwO+9jJyBDKieZQXLXpKGawA3chZTUM0pkUYglfGNLe2algfJsyivbGlhDhi1TP3eHRb5Tr4ALkW7bNSb0Ho7u5pxcjXADPCLBeFA/tqwlreh/YSFewZXf32PYiDQG4vx1uDydr4AOhXAxvJLjWj+KS5ZOGFekH/O/KFzthShozIJQGAi64oyg+mraRYAeAoPktg1Rzn6ghW6p0Q0GwOZ4da92RhodVjq/QP4AdrnIzBqy9r2AAAAAElFTkSuQmCC',
+            index: 0,
+            appStoreState: [Object]
+          },
+          {
+            tabId: 'e7b4b964-8816-43e5-b6c9-bb3234394c9d',
+            url: 'https://www.notion.so/Productivity-OS-Dashboard-25c232258f0080049402febf51dfb0ea',
+            title: '🖥️ Productivity OS Dashboard',
+            index: 1,
+            appStoreState: [Object]
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2025-08-28 00:26:12.730] [info]  App starting with version 4.17.0 (78e72f0) { system: 'linux x64', electron: '36.8.1' }
+[2025-08-28 00:26:20.706] [info]                 Activated { options: {} }
+[2025-08-28 00:26:20.711] [info]                 Rehydrating app in foreground {
+  restorationState: {
+    windows: [
+      {
+        windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+        focusOrder: 51,
+        displayState: {
+          normalBounds: { x: 0, y: 0, width: 960, height: 1040 },
+          displayBounds: [ [Object] ],
+          isFullScreen: true,
+          isHtmlFullScreen: false,
+          isMaximized: false
+        },
+        activeTabIdMap: { ungrouped: 'e7b4b964-8816-43e5-b6c9-bb3234394c9d' },
+        activeTabSectionId: 'ungrouped',
+        tabs: [
+          {
+            tabId: '7ce280f9-65e2-4f1b-9586-325d84b03c16',
+            url: 'https://www.notion.so/Monthly-Budget-25c232258f0080119c2ddb07478577bf',
+            title: 'Monthly Budget',
+            favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAAICSURBVFhH7ZbtccIwDIZhksIkhUkKk4ROUjYpnaR0klaPKqXCyMEkueNPdefLna1Ir1592MvFg2X5YP+LfwBVBrqu20h6WE/2Xcn3JOss61WE72RJAYjzd3M65AAw+6lALgBY1G9imGhbBBa2U0D0AMQ5Tj8rXtcGCmZKmQQiAjiI5S5zIBECYCEgAZixcxSdfQtlpY4CuBE9BQc49DKQRzkaXZQOIBo+icGPgJTooNmB7sLZSc7Q52wjH5Z3Ddv8h61er8ZArHqKSo22SmPXpEw5A9/BGaibKnuOrnEAWXHR46BOpVI3MKezwc5JCYW9qgXoAOj9XeHp7NWfIUgKkjxvS90KS31hZ0XoNnqlxCgRlTOjWjuVGlnDlAOAqnLI9AYtWnBoR7RG78BFP2NYUzw0iHT4iPAzABFFXUQ0mKoA4mD14Fs6vMq7oDbp9Cf5YXTXJEWrwO+9jJyBDKieZQXLXpKGawA3chZTUM0pkUYglfGNLe2algfJsyivbGlhDhi1TP3eHRb5Tr4ALkW7bNSb0Ho7u5pxcjXADPCLBeFA/tqwlreh/YSFewZXf32PYiDQG4vx1uDydr4AOhXAxvJLjWj+KS5ZOGFekH/O/KFzthShozIJQGAi64oyg+mraRYAeAoPktg1Rzn6ghW6p0Q0GwOZ4da92RhodVjq/QP4AdrnIzBqy9r2AAAAAElFTkSuQmCC',
+            index: 0,
+            appStoreState: [Object]
+          },
+          {
+            tabId: 'e7b4b964-8816-43e5-b6c9-bb3234394c9d',
+            url: 'https://www.notion.so/Productivity-OS-Dashboard-25c232258f0080049402febf51dfb0ea',
+            title: '🖥️ Productivity OS Dashboard',
+            index: 1,
+            appStoreState: [Object]
+          }
+        ]
+      }
+    ],
+    tabSpaces: []
+  }
+}
+[2025-08-28 00:26:20.723] [info]                 {
+  eventName: 'electron_new_window',
+  eventProperties: {
+    desktop_tab_count: 0,
+    desktop_window_count: 1,
+    desktop_tab_space_count: 0,
+    desktop_loaded_tab_count: 0
+  }
+}
+[2025-08-28 00:26:23.141] [warn]                 Window not found
+[2025-08-28 00:26:23.352] [info]                 New window created {
+  windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+  activeTabSectionId: 'ungrouped',
+  showWhenLoaded: true,
+  displayState: {
+    normalBounds: { x: 0, y: 0, width: 960, height: 1040 },
+    displayBounds: [ { x: 0, y: 0, width: 1920, height: 1080 } ],
+    isFullScreen: true,
+    isHtmlFullScreen: false,
+    isMaximized: false
+  }
+}
+[2025-08-28 00:26:23.640] [info]                 New Tab Controller {
+  id: 'e7b4b964-8816-43e5-b6c9-bb3234394c9d',
+  initialUrl: 'https://www.notion.so/Productivity-OS-Dashboard-25c232258f0080049402febf51dfb0ea?loadOrigin=new_tab_on_restore',
+  windowId: 'b34da7cc-c60a-4305-a9ef-f8bf4039cf41',
+  tabId: 'e7b4b964-8816-43e5-b6c9-bb3234394c9d',
+  fromPrewarmTab: false
+}
+[2025-08-28 00:26:23.692] [info]                 Finished rehydrating entire app in foreground { success: true }
+[2025-08-28 00:26:25.204] [info]                 {
+  eventName: 'electron_app_lifecycle_event',
+  eventProperties: { lifecycle_event: 'app_start', desktop_target_platform: 'windows' }
+}
+[2025-08-28 00:26:40.748] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-28 00:26:40.871] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-28 00:26:41.901] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-28 00:26:42.117] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-28 00:26:44.438] [info]                         notion:set-user-preference { key: 'isTabUnloadingEnabled', value: true }
+[2025-08-28 00:26:44.584] [info]                         notion:set-user-preference { key: 'tabUnloadThreshold', value: 36000000 }
+[2025-08-28 00:28:15.399] [info]                         ServerLoggerForOffline Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    miscDataString: '{"isOnline":true,"hasCurrentSpaceStore":false,"hasCurrentSpaceViewStore":false,"hasCurrentUserRootStore":true,"hasCurrentUserSettingsStore":true,"documentVisibilityState":"hidden","isOnPublicPage":false,"isOnPublicShareLinkPage":false}'
+  },
+  level: 'error',
+  from: 'SidebarContentContainer',
+  type: 'sidebarLoadingTimeout',
+  error: { message: 'Sidebar took longer than 90 seconds to load.' }
+}
+[2025-08-28 00:31:15.318] [info]                         ServerLoggerForOffline Message {
+  level: 'info',
+  from: 'serverLoggerForOffline.ts',
+  type: 'splunkSendSuccess'
+}
+[2025-08-28 00:32:25.280] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/workflow-templates/preview-avatar-1.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:32:25.779] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/workflow-templates/preview-avatar-3.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:34:52.126] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/workflow-templates/preview-avatar-1.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:34:52.627] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/workflow-templates/preview-avatar-3.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:35:20.939] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:35:24.233] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:38:10.339] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 971)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/images/tooltips/blocks/template-button/es-LA.ae4969e8.png"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 00:38:10.840] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 1119)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/async-diffs-e8b05bdf7e30b2ee.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 00:38:12.702] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 1120)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/24630-c314553797409b13.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 00:38:13.204] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 1249)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/28566-1bd0ff3ebdb178a9.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 00:38:13.703] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 1886)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/56580-b6b21bd7813ac32a.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 00:38:14.204] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 2110)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/57723-afb2ed83f7edaa9b.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 00:38:23.393] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:38:24.234] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:39:36.001] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:39:36.502] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:43:00.557] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/workflow-templates/preview-avatar-1.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:43:03.321] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/workflow-templates/preview-avatar-2.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:43:03.822] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/workflow-templates/preview-avatar-3.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:43:17.265] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:43:18.661] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:49:07.560] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:49:08.061] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:52:15.168] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:52:15.860] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:54:54.189] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:54:54.691] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:56:51.531] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 00:56:52.032] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:17:40.812] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 967)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/images/tooltips/blocks/header/fr-FR.58752417.png"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 01:17:41.310] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 1274)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/WorkspaceDiscoveryAdminSetting-1be72998420c1f30.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 01:17:43.115] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 1275)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/sentry-defef6c82f54860b.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 01:17:43.617] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 1677)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/_assets/71300-d139279c457b974a.js"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 01:17:44.134] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    miscDataString: `{"exception":{"name":"NetworkError","message":"Failed to execute 'put' on 'Cache': Cache.put() encountered a network error","stack":"NetworkError: Failed to execute 'put' on 'Cache': Cache.put() encountered a network error\\n    at Object.put (https://www.notion.so/sw.js:1:43025)\\n    at async https://www.notion.so/sw.js:1:38960\\n    at async Promise.all (index 2111)\\n    at async https://www.notion.so/sw.js:1:38925"},"path":"/images/icons/todo.ed420552.png"}`
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'cachePutError'
+}
+[2025-08-28 01:24:52.765] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/woodcuts_sekka_3.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:24:58.259] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/solid_red.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:24:58.763] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/solid_yellow.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:25:00.179] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/solid_blue.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:25:00.680] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/met_klimt_1912.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:25:45.111] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/solid_red.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:25:45.611] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/gradients_3.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:25:46.144] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/nasa_tim_peake_spacewalk.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:25:46.229] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/nasa_bruce_mccandless_spacewalk.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:25:46.729] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/met_silk_kashan_carpet.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:25:47.142] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/rijksmuseum_vermeer_the_milkmaid.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:25:47.642] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/page-cover/met_klimt_1912.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:26:14.507] [info]                         {
+  eventName: 'electron_memory_usage',
+  eventProperties: {
+    tabs_private_memory_total: 531,
+    tabs_working_set_size_total: 766,
+    app_working_set_size_total: 1863,
+    tab_process_count: 2
+  }
+}
+[2025-08-28 01:26:19.703] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/layouts/configuration/simple-page-layout-structure.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:26:20.204] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/layouts/configuration/tabbed-page-layout-structure.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:26:48.597] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/layouts/configuration/property-files-media-preview.jpg'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:26:49.097] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/layouts/configuration/property-person-preview.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:27:22.632] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/layouts/configuration/property-files-media-preview-large.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:27:23.132] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/layouts/configuration/property-ai-summary-preview-large.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:30:16.365] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:30:16.866] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:31:21.832] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/figma-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:31:22.333] [info]                         ServerLogger Message {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '4.17.0',
+  desktopCPU: 'AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx',
+  desktopRAM: '6G',
+  clientEnvironmentData: {
+    idbSessionId: '4de81d1a-83be-4a89-8bf1-675e16c125a4',
+    version: '23.13.0.4760',
+    isElectron: true,
+    os: 'windows',
+    platform: 'electron',
+    userAgent: 'Mozilla/5.0 (X11; Windows x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/4.17.0 Chrome/136.0.7103.177 Electron/36.8.1 Safari/537.36 WantsServiceWorker',
+    is_experimental_build: false,
+    is_mobile_build: false,
+    storageUsageEstimate: 317004612,
+    storageQuotaEstimate: 19650747204,
+    desktopOsVersion: 'Unknown',
+    desktopKernelVersion: '6.12.43-1-lts',
+    desktopElectronVersion: '36.8.1',
+    desktopChromiumVersion: '136.0.7103.177',
+    desktopArch: 'x64',
+    desktopPlatform: 'linux',
+    desktopMachineModelIdentifier: 'Unknown',
+    desktopTargetPlatform: 'windows',
+    desktopVersion: '4.17.0',
+    userId: '25cd872b-594c-81d6-a935-00022e5a8ee3'
+  },
+  environment: 'production',
+  data: {
+    serviceWorkerMajorVersion: 7,
+    serviceWorkerMinorVersion: 0,
+    path: '/images/external_integrations/github-icon.png'
+  },
+  level: 'error',
+  from: 'serviceWorker',
+  type: 'obviouslyIncorrectPathForIndex'
+}
+[2025-08-28 01:51:24.559] [info]                         Preventing closure for window with id 1, hiding
+[2025-08-28 02:08:19.724] [error]                        render-process-gone {
+  url: 'file:///usr/lib/notion-app/app.asar/.webpack/renderer/tab_preview/index.html',
+  details: { reason: 'clean-exit', exitCode: 0 }
+}
+[2025-08-28 02:08:19.778] [error]                        render-process-gone {
+  url: 'https://www.notion.so/quick-search',
+  details: { reason: 'clean-exit', exitCode: 0 }
+}

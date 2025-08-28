@@ -1,0 +1,11 @@
+// Clock module
+{
+  "clock": {
+    // 24h primary, 12h on right-click
+    "format": "{:%a %d %b  %H:%M}",
+    "format-alt": "{:%I:%M %p}",
+    // Tooltip shows full date
+    "tooltip-format": "{:%A, %B %d %Y}\nWeek %V",
+    "interval": 1
+  }
+}

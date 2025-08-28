@@ -1,0 +1,13 @@
+// Notification Center (swaync) module
+{
+  "swaync": {
+    // Click toggles panel, right-click clears notifications
+    "format": "  {count}",
+    "tooltip": true,
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d",
+    // Hide count when zero
+    "format-icons": { "none": "" },
+    "max-length": 16
+  }
+}

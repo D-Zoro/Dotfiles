@@ -1,0 +1,57 @@
+2025/08/27-22:19:54.363 39d45 Reusing MANIFEST /home/neonpulse/.config/Notion/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2025/08/27-22:19:54.630 39d45 Recovering log #21
+2025/08/27-22:19:54.633 39d45 Reusing old log /home/neonpulse/.config/Notion/Partitions/notion/Local Storage/leveldb/000021.log 
+2025/08/27-22:22:00.061 39d46 Level-0 table #25: started
+2025/08/27-22:22:00.387 39d46 Level-0 table #25: 508389 bytes OK
+2025/08/27-22:22:00.673 39d46 Delete type=0 #21
+2025/08/27-22:22:00.675 39d46 Compacting 4@0 + 1@1 files
+2025/08/27-22:22:01.104 39d46 Generated table #26@0: 142 keys, 1010314 bytes
+2025/08/27-22:22:01.104 39d46 Compacted 4@0 + 1@1 files => 1010314 bytes
+2025/08/27-22:22:01.356 39d46 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/27-22:22:01.356 39d46 Delete type=2 #18
+2025/08/27-22:22:01.357 39d46 Delete type=2 #16
+2025/08/27-22:22:01.357 39d46 Delete type=2 #22
+2025/08/27-22:22:01.357 39d46 Delete type=2 #20
+2025/08/27-22:22:01.357 39d46 Delete type=2 #25
+2025/08/27-22:36:00.060 39d46 Level-0 table #28: started
+2025/08/27-22:36:00.117 39d46 Level-0 table #28: 17071 bytes OK
+2025/08/27-22:36:00.256 39d46 Delete type=0 #24
+2025/08/27-22:46:00.066 39d46 Level-0 table #30: started
+2025/08/27-22:46:00.247 39d46 Level-0 table #30: 512153 bytes OK
+2025/08/27-22:46:00.481 39d46 Delete type=0 #27
+2025/08/27-22:47:00.060 39d46 Level-0 table #32: started
+2025/08/27-22:47:00.189 39d46 Level-0 table #32: 255307 bytes OK
+2025/08/27-22:47:00.353 39d46 Delete type=0 #29
+2025/08/27-22:55:48.028 39d46 Level-0 table #34: started
+2025/08/27-22:55:48.416 39d46 Level-0 table #34: 509408 bytes OK
+2025/08/27-22:55:48.725 39d46 Delete type=0 #31
+2025/08/27-22:55:48.726 39d46 Compacting 4@0 + 1@1 files
+2025/08/27-22:55:49.971 39d46 Generated table #35@0: 169 keys, 1012651 bytes
+2025/08/27-22:55:50.012 39d46 Compacted 4@0 + 1@1 files => 1012651 bytes
+2025/08/27-22:55:50.235 39d46 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/27-22:55:50.235 39d46 Delete type=2 #30
+2025/08/27-22:55:50.236 39d46 Delete type=2 #26
+2025/08/27-22:55:50.236 39d46 Delete type=2 #32
+2025/08/27-22:55:50.236 39d46 Delete type=2 #34
+2025/08/27-22:55:50.236 39d46 Delete type=2 #28
+2025/08/27-23:02:00.061 39d46 Level-0 table #37: started
+2025/08/27-23:02:00.172 39d46 Level-0 table #37: 20681 bytes OK
+2025/08/27-23:02:00.210 39d46 Delete type=0 #33
+2025/08/27-23:08:00.059 39d46 Level-0 table #39: started
+2025/08/27-23:08:02.175 39d46 Level-0 table #39: 16660 bytes OK
+2025/08/27-23:08:02.336 39d46 Delete type=0 #36
+2025/08/27-23:17:00.060 39d46 Level-0 table #41: started
+2025/08/27-23:17:00.488 39d46 Level-0 table #41: 18767 bytes OK
+2025/08/27-23:17:00.526 39d46 Delete type=0 #38
+2025/08/27-23:23:00.060 39d46 Level-0 table #43: started
+2025/08/27-23:23:00.986 39d46 Level-0 table #43: 45550 bytes OK
+2025/08/27-23:23:01.070 39d46 Delete type=0 #40
+2025/08/27-23:23:01.071 39d46 Compacting 4@0 + 1@1 files
+2025/08/27-23:23:01.387 39d46 Generated table #44@0: 225 keys, 1044620 bytes
+2025/08/27-23:23:01.387 39d46 Compacted 4@0 + 1@1 files => 1044620 bytes
+2025/08/27-23:23:01.429 39d46 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/27-23:23:01.429 39d46 Delete type=2 #43
+2025/08/27-23:23:01.429 39d46 Delete type=2 #41
+2025/08/27-23:23:01.430 39d46 Delete type=2 #39
+2025/08/27-23:23:01.430 39d46 Delete type=2 #37
+2025/08/27-23:23:01.430 39d46 Delete type=2 #35

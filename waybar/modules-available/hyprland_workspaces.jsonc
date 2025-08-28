@@ -1,0 +1,20 @@
+// Hyprland workspaces module
+{
+  "hyprland/workspaces": {
+    // Show workspaces from all outputs and keep order numeric
+    "all-outputs": true,
+    "active-only": false,
+    "sort-by-number": true,
+    // Render icons for states
+    "format": "{icon}",
+    "format-icons": {
+      "default": "",
+      "active": "",
+      "urgent": ""
+    },
+    // Interactions
+    "on-click": "hyprctl dispatch workspace {id}",
+    "on-scroll-up": "hyprctl dispatch workspace +1",
+    "on-scroll-down": "hyprctl dispatch workspace -1"
+  }
+}

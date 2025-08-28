@@ -1,0 +1,12 @@
+// Custom network speed using a script outputting JSON
+{
+  "custom/net_speed": {
+    "exec": "~/.config/waybar/scripts/net_speed.sh",
+    "return-type": "json",
+    "interval": 1,
+    "tooltip": true,
+    // Click opens a terminal network monitor if available
+    "on-click": "alacritty -e btop || foot -e btop || alacritty -e htop",
+    "max-length": 24
+  }
+}

@@ -1,0 +1,17 @@
+// PulseAudio/PipeWire volume
+{
+  "pulseaudio": {
+    // Icon changes with volume and mute
+    "format": "{icon} {volume}%",
+    "format-muted": "󰝟 muted",
+    "format-icons": {
+      "headphones": "󰋋",
+      "default": ["󰕿", "󰖀", "󰕾"]
+    },
+    // Smooth scrolling volume control
+    "scroll-step": 3,
+    // Click opens a mixer if available
+    "on-click": "pavucontrol || foot -e alsamixer || alacritty -e alsamixer",
+    "tooltip": true
+  }
+}

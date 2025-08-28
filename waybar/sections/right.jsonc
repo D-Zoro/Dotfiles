@@ -1,0 +1,20 @@
+// Right section modules
+{
+  "modules-right": [
+    // Notification center (toggle on click)
+    "swaync",
+    // Audio (PipeWire via PulseAudio compatibility)
+    "pulseaudio",
+    // Media status
+    "custom/mpris",
+    // Network (speed + status)
+    "custom/net_speed",
+    "network",
+    // System
+    "cpu",
+    "memory",
+    "battery",
+    // Tray at the end
+    "tray"
+  ]
+}

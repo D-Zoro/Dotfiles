@@ -1,0 +1,10 @@
+// Memory (RAM) module
+{
+  "memory": {
+    "format": "󰍛 {percentage}%",
+    "interval": 5,
+    "tooltip": true,
+    // Set thresholds for CSS classes: warning, critical
+    "states": { "warning": 70, "critical": 90 }
+  }
+}

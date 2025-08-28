@@ -1,0 +1,16 @@
+// Battery module with icons and state thresholds
+{
+  "battery": {
+    "format": "{icon} {percent}%",
+    "format-charging": "󰂄 {percent}%",
+    "format-plugged": "󰚥 {percent}%",
+    "format-alt": "{time}",
+    "interval": 10,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format-icons": ["󰁺","󰁼","󰁾","󰂀","󰂂","󰁹"],
+    "tooltip": true
+  }
+}

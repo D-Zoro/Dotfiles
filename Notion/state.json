@@ -1,0 +1,148 @@
+{
+	"history": {
+		"lastFocusedWindowDisplayState": {
+			"normalBounds": {
+				"x": 0,
+				"y": 0,
+				"width": 1920,
+				"height": 1080
+			},
+			"displayBounds": [
+				{
+					"x": 0,
+					"y": 0,
+					"width": 1920,
+					"height": 1080
+				}
+			],
+			"isFullScreen": false,
+			"isHtmlFullScreen": false,
+			"isMaximized": true
+		},
+		"appRestorationState": {
+			"windows": [
+				{
+					"windowId": "b34da7cc-c60a-4305-a9ef-f8bf4039cf41",
+					"focusOrder": 50,
+					"displayState": {
+						"normalBounds": {
+							"x": 0,
+							"y": 0,
+							"width": 1920,
+							"height": 1080
+						},
+						"displayBounds": [
+							{
+								"x": 0,
+								"y": 0,
+								"width": 1920,
+								"height": 1080
+							}
+						],
+						"isFullScreen": false,
+						"isHtmlFullScreen": false,
+						"isMaximized": true
+					},
+					"activeTabIdMap": {
+						"ungrouped": "e7b4b964-8816-43e5-b6c9-bb3234394c9d"
+					},
+					"activeTabSectionId": "ungrouped",
+					"tabs": [
+						{
+							"tabId": "7ce280f9-65e2-4f1b-9586-325d84b03c16",
+							"url": "https://www.notion.so/Monthly-Budget-25c232258f0080119c2ddb07478577bf?loadOrigin=new_tab_on_restore",
+							"title": "Monthly Budget",
+							"favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAAAICSURBVFhH7ZbtccIwDIZhksIkhUkKk4ROUjYpnaR0klaPKqXCyMEkueNPdefLna1Ir1592MvFg2X5YP+LfwBVBrqu20h6WE/2Xcn3JOss61WE72RJAYjzd3M65AAw+6lALgBY1G9imGhbBBa2U0D0AMQ5Tj8rXtcGCmZKmQQiAjiI5S5zIBECYCEgAZixcxSdfQtlpY4CuBE9BQc49DKQRzkaXZQOIBo+icGPgJTooNmB7sLZSc7Q52wjH5Z3Ddv8h61er8ZArHqKSo22SmPXpEw5A9/BGaibKnuOrnEAWXHR46BOpVI3MKezwc5JCYW9qgXoAOj9XeHp7NWfIUgKkjxvS90KS31hZ0XoNnqlxCgRlTOjWjuVGlnDlAOAqnLI9AYtWnBoR7RG78BFP2NYUzw0iHT4iPAzABFFXUQ0mKoA4mD14Fs6vMq7oDbp9Cf5YXTXJEWrwO+9jJyBDKieZQXLXpKGawA3chZTUM0pkUYglfGNLe2algfJsyivbGlhDhi1TP3eHRb5Tr4ALkW7bNSb0Ho7u5pxcjXADPCLBeFA/tqwlreh/YSFewZXf32PYiDQG4vx1uDydr4AOhXAxvJLjWj+KS5ZOGFekH/O/KFzthShozIJQGAi64oyg+mraRYAeAoPktg1Rzn6ghW6p0Q0GwOZ4da92RhodVjq/QP4AdrnIzBqy9r2AAAAAElFTkSuQmCC",
+							"index": 0,
+							"appStoreState": {
+								"currentUserId": "25cd872b-594c-81d6-a935-00022e5a8ee3",
+								"currentSpaceId": "38f23225-8f00-8182-9ad6-0003821b0434",
+								"currentPageId": "25c23225-8f00-8011-9c2d-db07478577bf"
+							}
+						},
+						{
+							"tabId": "e7b4b964-8816-43e5-b6c9-bb3234394c9d",
+							"url": "https://www.notion.so/25c232258f0080a4987cdc5634cc42a1",
+							"title": "New page",
+							"index": 1,
+							"appStoreState": {
+								"currentUserId": "25cd872b-594c-81d6-a935-00022e5a8ee3",
+								"currentSpaceId": "38f23225-8f00-8182-9ad6-0003821b0434",
+								"currentPageId": "25c23225-8f00-80a4-987c-dc5634cc42a1"
+							}
+						}
+					]
+				}
+			],
+			"tabSpaces": []
+		},
+		"closeEvents": [
+			{
+				"type": "single-tab",
+				"tabId": "0a2dc538-8299-4a21-adc6-7b1b34853cab",
+				"activeTabSectionId": "ungrouped",
+				"url": "https://www.notion.so/onboarding",
+				"index": 1,
+				"windowId": "b34da7cc-c60a-4305-a9ef-f8bf4039cf41",
+				"appStoreState": {
+					"currentUserId": "25cd872b-594c-81d6-a935-00022e5a8ee3"
+				}
+			}
+		]
+	},
+	"appState": {
+		"zoomFactor": 1,
+		"theme": {
+			"mode": "dark",
+			"usingSystemTheme": true,
+			"colors": {
+				"white": "white",
+				"blue": "#2383E2"
+			},
+			"borderRadius": 4,
+			"textColor": "rgba(255, 255, 255, 0.81)",
+			"popoverBackgroundColor": "rgba(37, 37, 37, 1)",
+			"popoverBoxShadow": "0 0 0 1px rgba(48, 48, 46, 1), 0px 14px 28px -6px rgba(0, 0, 0, 0.20), 0px 2px 4px -1px rgba(0, 0, 0, 0.12)",
+			"inputBoxShadow": "rgba(255, 255, 255, 0.075) 0 0 0 1px",
+			"inputBackgroundColor": "rgba(255, 255, 255, 0.055)",
+			"dividerColor": "rgba(255, 255, 255, 0.13)",
+			"shadowOpacity": 0.2
+		},
+		"preferences": {
+			"isAutoUpdaterDisabled": false,
+			"isAutoUpdaterOSSupportBypass": false,
+			"isClosingBrowserTabs": false,
+			"isHardwareAccelerationDisabled": false,
+			"isHideLastWindowOnCloseEnabled": true,
+			"isMenuBarIconEnabled": true,
+			"isNavigationHistoryEnabled": true,
+			"isNewTabSearchEnabled": true,
+			"isOpenAtLoginEnabled": false,
+			"isPinnedTabNewTabEnabled": true,
+			"isTabSpacesEnabled": true,
+			"isQuickSearchEnabled": true,
+			"isTabPreviewEnabled": true,
+			"isUniversalLinksEnabled": true,
+			"isUsingHttps": true,
+			"isVibrancyEnabled": null,
+			"notionAiShortcut": "shift+ctrl+j",
+			"onStartup": "continue",
+			"quickSearchShortcut": "Shift+CommandOrControl+K",
+			"updaterChannel": null,
+			"ignoreLogMessages": [
+				"Electron Security Warning",
+				"chrome-extension://"
+			],
+			"sqliteConnectionType": "message-ports",
+			"disabledExtensions": [
+				"React Developer Tools"
+			],
+			"isAlwaysOnTabBarEnabled": true,
+			"isZenModeEnabled": true,
+			"isTabUnloadingEnabled": true,
+			"tabUnloadThreshold": 36000000
+		},
+		"notificationCount": 0,
+		"isTabBarContextMenuOpen": false
+	}
+}

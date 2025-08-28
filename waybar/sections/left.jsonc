@@ -1,0 +1,7 @@
+// Left section modules
+{
+  // Only define modules-left here. Module configs live in modules-available/*.jsonc
+  "modules-left": [
+    "hyprland/workspaces"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 28,
+  "spacing": 6,
+  "margin-top": 4,
+  "margin-left": 6,
+  "margin-right": 6,
+  "margin-bottom": 4,
+  "fixed-center": true,
+  "include": [
+    "sections/left.jsonc",
+    "sections/center.jsonc",
+    "sections/right.jsonc",
+    "modules-available/*.jsonc"
+  ]
+}

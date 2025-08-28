@@ -1,0 +1,110 @@
+[2025-08-27 16:18:51.881] [info]  (SqliteServer) Child process running on 45585
+[2025-08-27 16:19:17.387] [info]  (SqliteServer)         stdout: 16:19:17.381 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-08-27 16:19:17.753] [info]  (SqliteServer)         stdout: 16:19:17.752 › Listening to 1 MessagePort(s) for renderer 7 (https://www.notion.so/blank)
+
+[2025-08-27 16:19:22.539] [info]  (SqliteServer)         stdout: 16:19:22.538 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/?loadOrigin=new_tab&tabCount=0)
+
+[2025-08-27 16:19:24.438] [info]  (SqliteServer)         stdout: 16:19:22.915 › Disabling corruption repair
+16:19:22.958 › Disabling corruption repair
+
+[2025-08-27 16:19:26.917] [info]  (SqliteServer)         stdout: 16:19:26.417 › Disabling corruption repair
+
+[2025-08-27 16:23:19.321] [info]  (SqliteServer)         stdout: 16:23:19.317 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search?loadOrigin=service_worker_change)
+
+[2025-08-27 16:23:22.491] [info]  (SqliteServer)         stdout: 16:23:22.490 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/login?loadOrigin=service_worker_change)
+
+[2025-08-27 16:23:31.050] [info]  (SqliteServer)         stdout: 16:23:26.498 › Disabling corruption repair
+16:23:27.886 › Disabling corruption repair
+
+[2025-08-27 16:23:42.350] [info]  (SqliteServer)         stdout: 16:23:42.349 › Listening to 1 MessagePort(s) for renderer 7 (https://www.notion.so/blank?loadOrigin=service_worker_change)
+
+[2025-08-27 16:23:48.609] [info]  (SqliteServer)         stdout: 16:23:47.172 › Disabling corruption repair
+
+[2025-08-27 16:25:16.516] [info]  (SqliteServer)         stdout: 16:25:16.515 › Listening to 1 MessagePort(s) for renderer 7 (https://www.notion.so/oauth2callback?state=eyJjYWxsYmFja1R5cGUiOiJuYXRpdmVyZWRpcmVjdCIsImVuY3J5cHRlZFRva2VuIjoidjAyOmxvZ2luX3dpdGhfZ29vZ2xlOnVGTTA3MUliU29TY3luNjVIN29CeERuSWZpQWN3eWs0TGRYQTdoemFKTnZkV1JSTzVZcHgxRlYxSms4Zl9KS2RSUFpXNzh1Q2ZCRTZ3UUZxbkU3TUdDdlJsTk5YeU5CanZHWHB5NmZlOWtleTBobUFob3l0VUtYV0xZYnI1bDRfMlNsUiJ9&code=4%2F0AVMBsJghc1wwef-S18DRtO-S1tXmdkG3e2HefSVDGms6FU8Hk9uL83CCClIav0QLBDS8iA&scope=email%20profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20openid&authuser=1&prompt=consent&cs_completed=true&tid=5d36780d95b3488e9d639d9fa692cecc&di=88fbdbc1dc0e4c32875deaa57625ff61&loadOrigin=refresh_all_ipc&tabCount=2)
+
+[2025-08-27 16:25:19.875] [info]  (SqliteServer)         stdout: 16:25:19.873 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/login?loadOrigin=refresh_all_ipc&tabCount=2)
+
+[2025-08-27 16:25:20.932] [info]  (SqliteServer)         stdout: 16:25:20.931 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-08-27 16:25:29.809] [info]  (SqliteServer)         stdout: 16:25:21.059 › Disabling corruption repair
+16:25:21.067 › Disabling corruption repair
+
+[2025-08-27 16:25:30.950] [info]  (SqliteServer)         stdout: 16:25:30.554 › Disabling corruption repair
+
+[2025-08-27 16:25:32.844] [info]  (SqliteServer)         stdout: 16:25:30.953 › Listening to 1 MessagePort(s) for renderer 8 (https://www.notion.so/blank)
+
+[2025-08-27 16:25:42.708] [info]  (SqliteServer)         stdout: 16:25:42.707 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-08-27 16:25:46.417] [info]  (SqliteServer)         stdout: 16:25:46.386 › Disabling corruption repair
+
+[2025-08-27 16:25:48.704] [info]  (SqliteServer)         stdout: 16:25:48.275 › Disabling corruption repair
+
+[2025-08-27 16:26:23.972] [info]  (SqliteServer)         stdout: 16:26:23.972 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/onboarding?loadOrigin=refresh_active_tab_on_error&tabCount=2)
+
+[2025-08-27 16:26:25.214] [info]  (SqliteServer)         stdout: 16:26:24.951 › Disabling corruption repair
+
+[2025-08-27 16:27:23.967] [info]  (SqliteServer)         stdout: 16:27:23.967 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-08-27 16:27:25.929] [info]  (SqliteServer)         stdout: 16:27:25.929 › Disabling corruption repair
+
+[2025-08-27 22:11:08.501] [info]  (SqliteServer)         Killing child process
+[2025-08-27 22:19:55.303] [info]  (SqliteServer) Child process running on 36641
+[2025-08-27 22:20:03.333] [info]  (SqliteServer)         stdout: 22:20:03.325 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/Weekly-To-do-List-25c232258f0080d4aa9be2f3b731f131?loadOrigin=new_tab_on_restore&tabCount=0)
+
+[2025-08-27 22:20:04.002] [info]  (SqliteServer)         stdout: 22:20:04.001 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-08-27 22:20:04.269] [info]  (SqliteServer)         stdout: 22:20:04.010 › Listening to 1 MessagePort(s) for renderer 7 (https://www.notion.so/blank)
+
+[2025-08-27 22:20:10.825] [info]  (SqliteServer)         stdout: 22:20:09.544 › Disabling corruption repair
+22:20:09.545 › Disabling corruption repair
+22:20:09.547 › Disabling corruption repair
+
+[2025-08-27 22:23:18.342] [info]  (SqliteServer)         stdout: 22:23:18.337 › Disabling corruption repair
+
+[2025-08-27 22:23:23.222] [info]  (SqliteServer)         stdout: 22:23:23.221 › Disabling corruption repair
+
+[2025-08-27 22:34:12.728] [info]  (SqliteServer)         stdout: 22:34:12.727 › Disabling corruption repair
+
+[2025-08-27 22:34:17.746] [info]  (SqliteServer)         stdout: 22:34:17.745 › Disabling corruption repair
+
+[2025-08-27 22:35:32.733] [info]  (SqliteServer)         stdout: 22:35:32.732 › Disabling corruption repair
+
+[2025-08-27 22:35:43.406] [info]  (SqliteServer)         stdout: 22:35:43.404 › Disabling corruption repair
+
+[2025-08-27 22:35:57.724] [info]  (SqliteServer)         stdout: 22:35:57.723 › Disabling corruption repair
+
+[2025-08-27 22:36:48.173] [info]  (SqliteServer)         stdout: 22:36:48.172 › Disabling corruption repair
+
+[2025-08-27 22:38:02.761] [info]  (SqliteServer)         stdout: 22:38:02.760 › Disabling corruption repair
+
+[2025-08-27 22:38:08.137] [info]  (SqliteServer)         stdout: 22:38:08.136 › Disabling corruption repair
+
+[2025-08-27 22:44:52.856] [info]  (SqliteServer)         stdout: 22:44:52.855 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-08-27 22:44:53.132] [info]  (SqliteServer)         stdout: 22:44:53.126 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/Monthly-Budget-25c232258f0080119c2ddb07478577bf?loadOrigin=refresh_all_client_update&tabCount=1)
+
+[2025-08-27 22:44:54.797] [info]  (SqliteServer)         stdout: 22:44:54.469 › Disabling corruption repair
+22:44:54.524 › Disabling corruption repair
+
+[2025-08-27 22:55:07.666] [info]  (SqliteServer)         stdout: 22:55:07.664 › Listening to 1 MessagePort(s) for renderer 8 (https://www.notion.so/blank)
+
+[2025-08-27 22:55:09.967] [info]  (SqliteServer)         stdout: 22:55:09.659 › Disabling corruption repair
+
+[2025-08-27 23:40:52.475] [info]  (SqliteServer)         stdout: 23:40:52.475 › Disabling corruption repair
+
+[2025-08-28 00:10:36.016] [info]  (SqliteServer)         stdout: 00:10:36.016 › Disabling corruption repair
+
+[2025-08-28 00:26:20.064] [info]  (SqliteServer) Child process running on 40555
+[2025-08-28 00:26:36.240] [info]  (SqliteServer)         stdout: 00:26:36.192 › Listening to 1 MessagePort(s) for renderer 3 (https://www.notion.so/Productivity-OS-Dashboard-25c232258f0080049402febf51dfb0ea?loadOrigin=new_tab_on_restore&tabCount=0)
+
+[2025-08-28 00:26:37.010] [info]  (SqliteServer)         stdout: 00:26:37.004 › Listening to 1 MessagePort(s) for renderer 5 (https://www.notion.so/quick-search)
+
+[2025-08-28 00:26:37.388] [info]  (SqliteServer)         stdout: 00:26:37.385 › Listening to 1 MessagePort(s) for renderer 7 (https://www.notion.so/blank)
+
+[2025-08-28 00:26:41.077] [info]  (SqliteServer)         stdout: 00:26:40.955 › Disabling corruption repair
+
+[2025-08-28 00:26:42.326] [info]  (SqliteServer)         stdout: 00:26:42.288 › Disabling corruption repair
+
+[2025-08-28 00:26:44.933] [info]  (SqliteServer)         stdout: 00:26:44.686 › Disabling corruption repair
+

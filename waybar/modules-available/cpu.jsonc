@@ -1,0 +1,8 @@
+// CPU usage
+{
+  "cpu": {
+    "format": " {usage}%",
+    "interval": 5,
+    "tooltip": true
+  }
+}

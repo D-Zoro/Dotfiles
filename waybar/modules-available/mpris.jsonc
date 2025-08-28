@@ -1,0 +1,13 @@
+// MPRIS / playerctl custom module
+{
+  "custom/mpris": {
+    "exec": "~/.config/waybar/scripts/mpris_status.sh",
+    "return-type": "json",
+    "interval": 2,
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "max-length": 30,
+    "tooltip": true
+  }
+}
